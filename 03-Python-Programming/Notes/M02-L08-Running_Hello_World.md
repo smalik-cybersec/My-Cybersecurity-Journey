@@ -1,7 +1,7 @@
 # M02-L08 | Running a "Hello World" Program
 
 **Date:** 2025-06-27
----
+--- 
 ### 1. Definition & Core Concept
 > A "Hello World" program is a traditional first program written in any new programming language, serving as a basic test to confirm that the development environment is correctly configured and that the language's fundamental output capabilities are working.
 
