@@ -1,3 +1,46 @@
+# 1. Declare a dictionary for a single host's basic scan info using literal
+host_scan_summary = {
+    "ip_address": "192.168.1.10",
+    "hostname": "kali-linux-vm",
+    "scan_date": "2025-06-29"
+}
+print("--- Host Scan Summary (Literal) ---")
+print(host_scan_summary)
+
+# 2. Declare a dictionary of open ports using dict() from a list of tuples
+# Imagine this data came from parsing nmap output
+nmap_port_data = [
+    ("SSH", 22),
+    ("HTTP", 80),
+    ("HTTPS", 443),
+    ("SMB", 445)
+]
+open_ports_details = dict(nmap_port_data)
+print("\n--- Open Ports Details (dict() from tuples) ---")
+print(open_ports_details)
+
+# 3. Declare a dictionary of service banners using dictionary comprehension
+# Filter for services with "SSH" or "Apache"
+raw_banners = [
+    {"port": 22, "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.1"},
+    {"port": 80, "banner": "Apache/2.4.52 (Ubuntu)"},
+    {"port": 139, "banner": "NetBIOS-SSN"},
+    {"port": 443, "banner": "Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2"}
+]
+
+important_banners = {
+    item['port']: item['banner']
+    for item in raw_banners
+    if "SSH" in item['banner'] or "Apache" in item['banner']
+}
+print("\n--- Important Service Banners (Comprehension) ---")
+print(important_banners)
+
+
+
+
+
+
 """
 Script to demonstrate various methods of declaring and initializing Python dictionaries.
 
