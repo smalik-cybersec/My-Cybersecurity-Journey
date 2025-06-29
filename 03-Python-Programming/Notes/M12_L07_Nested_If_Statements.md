@@ -72,4 +72,4 @@ if vulnerability_present:
         print("INFO: Vulnerability present, but no known public exploit. Prioritize patch, but no immediate panic.")
 else:
     print("No known vulnerability found for this software.")
-print("Vulnerability management decision made.")
+print("Vulnerability management decision made.") 
