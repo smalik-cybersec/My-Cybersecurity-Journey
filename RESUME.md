@@ -16,7 +16,7 @@
 *   **Operating Systems:** Linux (,RHEL, Ubuntu, Kali), Windows
 *   **Networking:** TCP/IP Suite, OSI Model, DNS, DHCP, Subnetting
 *   **Tools:** Git, GitHub, VS Code, Wireshark, Nmap
-*   **Cybersecurity Concepts:** Set Operations
+*   **Cybersecurity Concepts:** Set Operations, Conditional Logic, Decision Structures, Access Control Logic, Threat Level Classification
 *   **Cloud:** [Leave empty for now]
 
 ---
@@ -44,4 +44,19 @@
 * Skills Demonstrated: Python Sets, Data De-duplication, Threat Intelligence Processing, Log Analysis, Vulnerability Data Comparison, Scripting for Security Automation.
 * Link: [[python_sets_functions.py](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/blob/main/03-Python-Programming/Scripts/M11-L03-python_sets_functions.md)]
 
+#### Python Conditional Logic Demonstrations  
+**Module**: 03 - Python Programming (Module 12: Conditional Statements)
+
+**Description**:  
+Developed a series of Python scripts demonstrating mastery of `if`, `if-else`, `elif`, and `nested if` statements. Projects include simulations for:
+- User authentication  
+- Network traffic filtering  
+- Security alert classification  
+- Vulnerability assessment  
+- Multi-factor authentication flows  
+
+**Skills Demonstrated**:  
+Python Conditional Logic, if/elif/else Constructs, Nested Conditionals, Boolean Logic, Cybersecurity Scenario Simulation.
+
+**Link**: [[Link](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/blob/main/03-Python-Programming/Scripts/M12_L07_Nested_If_Statements_Examples.py)]
 ---
