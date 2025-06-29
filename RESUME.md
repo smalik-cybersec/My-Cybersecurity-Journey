@@ -1,0 +1,47 @@
+# [Shahid Ahmad malik]
+[Baramullah, J&K] | [6005817736] | [smalik.cybersec@gamil.com]
+[[LinkedIn Profile](https://www.linkedin.com/in/smalik-cybersec/)] | [[GitHub Profile](https://github.com/smalik-cybersec)]
+
+---
+
+### Professional Summary
+
+*A dedicated and results-oriented cybersecurity professional in-training with a strong foundation in networking, Linux systems, and Python scripting. Eager to apply a systematic, hands-on learning approach to solve real-world security challenges and contribute to a forward-thinking security team.*
+
+---
+
+### Key Skills
+
+*   **Languages:** Python, Bash Scripting
+*   **Operating Systems:** Linux (,RHEL, Ubuntu, Kali), Windows
+*   **Networking:** TCP/IP Suite, OSI Model, DNS, DHCP, Subnetting
+*   **Tools:** Git, GitHub, VS Code, Wireshark, Nmap
+*   **Cybersecurity Concepts:** Ethical Hacking Principles, Vulnerability Assessment, Network Reconnaissance
+*   **Cloud:** [Leave empty for now]
+
+---
+
+### Education & Certifications
+
+**One Year Industry Oriented Cyber Security Diploma** | CRAW Security | [01/06/2025] – Present
+*Comprehensive, hands-on training covering 12 core modules of modern cybersecurity practices.*
+
+---
+
+### Projects & Portfolio
+
+*This section details hands-on projects completed during my diploma. All projects are documented and available on my GitHub.*
+
+#### Project 1: Python-Based Network Scanner
+*   **Module:** 03 - Python Programming | **Status:** In Progress
+*   **Description:** Developed a command-line tool using Python's socket library to perform basic port scanning on target IP addresses. This project demonstrates fundamental knowledge of network protocols and scripting for reconnaissance.
+*   **Skills Demonstrated:** Python Scripting, Socket Programming, TCP/IP.
+*   **Link:** [Link to the specific script in your 03-Python-Programming/Scripts/ folder]
+
+#### [Project Title - Leave as a placeholder]
+*   **Module:** [Module Name] | **Status:** Planned
+*   **Description:** [Leave empty]
+*   **Skills Demonstrated:** [Leave empty]
+*   **Link:** [Leave empty]
+
+---
