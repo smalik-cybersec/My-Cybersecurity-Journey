@@ -38,10 +38,10 @@
 *   **Skills Demonstrated:** Python Scripting, Socket Programming, TCP/IP.
 *   **Link:** [Link to the specific script in your 03-Python-Programming/Scripts/ folder]
 
-#### [Project Title - Leave as a placeholder]
-*   **Module:** [Module Name] | **Status:** Planned
-*   **Description:** [Leave empty]
-*   **Skills Demonstrated:** [Leave empty]
-*   **Link:** [Leave empty]
+#### Python Set Operations for Cybersecurity
+* Module: 03 - Python Programming (Module 11: Set)
+* Description: Developed a comprehensive script demonstrating Python set declaration, mutation methods (`add`, `remove`, `discard`, `pop`, `clear`), mathematical set operations (`union`, `intersection`, `difference`, `symmetric_difference`), comparison methods (`issubset`, `issuperset`, `isdisjoint`), and in-place updates. Applied these concepts to simulate cybersecurity tasks such as managing blacklists, combining threat intelligence feeds, and comparing security scan findings.
+* Skills Demonstrated: Python Sets, Data De-duplication, Threat Intelligence Processing, Log Analysis, Vulnerability Data Comparison, Scripting for Security Automation.
+* Link: [[python_sets_functions.py](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/blob/main/03-Python-Programming/Scripts/M11-L03-python_sets_functions.md)]
 
 ---
