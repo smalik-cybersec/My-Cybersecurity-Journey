@@ -16,7 +16,7 @@
 *   **Operating Systems:** Linux (,RHEL, Ubuntu, Kali), Windows
 *   **Networking:** TCP/IP Suite, OSI Model, DNS, DHCP, Subnetting
 *   **Tools:** Git, GitHub, VS Code, Wireshark, Nmap
-*   **Cybersecurity Concepts:** Ethical Hacking Principles, Vulnerability Assessment, Network Reconnaissance
+*   **Cybersecurity Concepts:** Set Operations
 *   **Cloud:** [Leave empty for now]
 
 ---
