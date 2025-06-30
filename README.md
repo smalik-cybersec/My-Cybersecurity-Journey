@@ -27,7 +27,7 @@ Each module folder includes structured notes, labs, and scripts.
 |--------|-------------|---------|
 | ⚪ | [Module 01: Basic Networking](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/01-Basic-Networking) | OSI, TCP/IP, subnets, routing, DNS, VLANs |
 | ⚪ | [Module 02: Linux Essentials](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/L02_Linux_Essentials) | Bash, file systems, permissions, shell scripting |
-| ⚪ | [Module 03: Python Programming](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/03-Python-Programming) | Core syntax, OOP, file handling, automation |
+| ⚪ | [Module 03: Python Programming](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/L03_Python_Programming) | Core syntax, OOP, file handling, automation |
 | ⚪ | [Module 04: Ethical Hacking](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/04-Ethical-Hacking) | Recon, scanning, exploitation, social engineering |
 | ⚪ | [Module 05: Advanced Penetration Testing](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/05-Advanced-Penetration-Testing) | Red teaming, evasion, post-exploitation |
 | ⚪ | [Module 06: Cyber Forensics](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/06-Cyber-Forensics-Investigation) | Data recovery, chain of custody, forensic tools |
