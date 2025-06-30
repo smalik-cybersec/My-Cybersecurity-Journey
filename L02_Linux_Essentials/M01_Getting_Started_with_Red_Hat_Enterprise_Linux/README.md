@@ -1,7 +1,7 @@
-### [Level Name]
-# Module [Number]: [Module Name]
+### [Linux Essentials]
+# Module [01]: [Getting Started with Red Hat Enterprise Linux]
 
-**Module Objective:** [A concise, one-sentence goal for this specific module. e.g., "To master `for` and `while` loops in Python and apply them to practical automation tasks."]
+**Module Objective:** [Understanding RHEL]
 
 ---
 
