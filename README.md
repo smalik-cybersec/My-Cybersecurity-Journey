@@ -1,61 +1,92 @@
-# 🚀 Shahid Ahmad Malik's One-Year Cybersecurity Diploma Journey
+# 💻 Shahid Ahmad Malik | Cybersecurity Diploma Portfolio
 
-Welcome to my official portfolio for the **One-Year Industry-Oriented Cybersecurity Diploma Course** offered by [Craw Cyber Security](https://www.craw.in/). This repository serves as a dynamic record of my practical learning, projects, tools, and certifications as I progress through this comprehensive 12-module cybersecurity program.
-
-> 🎯 **Goal**: To become a highly skilled, job-ready cybersecurity professional with hands-on experience in networking, ethical hacking, forensics, cloud security, and more.
-
----
-
-## 📑 Table of Contents
-
-- [🧭 About This Repository](#-about-this-repository)
-- [📘 Course Modules & Progress](#-course-modules--progress)
-- [🛠 Tools & Technologies](#-tools--technologies)
-- [📈 Learning Milestones](#-learning-milestones)
-- [🔗 Connect With Me](#-connect-with-me)
+> **Welcome!** This is my **public portfolio repository** for the _One-Year Industry-Oriented Cybersecurity Diploma_ by [Craw Cyber Security](https://www.craw.in).  
+> I'm committed to learning, building, and showcasing practical cybersecurity skills across 12 advanced modules.
 
 ---
 
-## 🧭 About This Repository
+## 🚀 About This Repository
 
-This GitHub repository is my **interactive learning journal** and **portfolio showcase**. Each module folder includes:
-- 🧠 Personal notes
-- 💻 Lab exercises
-- 🔐 Scripts or tools
-- 📝 Reflections and summaries
-- 📂 Real-world use cases and sample projects
+This repository is my **cybersecurity learning journal** and **personal showcase**, documenting:
+
+- 🔎 Core concepts mastered per module
+- 🧠 Notes, tools, and summaries
+- 💻 Lab exercises and custom scripts
+- 📂 Future-ready cybersecurity projects
+
+> 📚 _“Learning by doing” is my approach—this repository reflects that journey._
 
 ---
 
-## 📘 Course Modules & Progress
+## 🗂️ Course Overview & Progress Tracker
 
-> ✅ I will check each module as I complete hands-on labs, submit write-ups, or finish mini-projects.
+Each module folder includes structured notes, labs, and scripts.  
+🟢 = Completed · 🟡 = In Progress · ⚪ = Pending
 
-```markdown
-- [ ] **Module 01: [Basic Networking](./01-Basic-Networking/)**  
-      _Foundations of computer networking, protocols, IP addressing, OSI model._
+| Status | Module Name | Summary |
+|--------|-------------|---------|
+| ⚪ | [Module 01: Basic Networking](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/01-Basic-Networking) | OSI, TCP/IP, subnets, routing, DNS, VLANs |
+| ⚪ | [Module 02: Linux Essentials](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/02-Linux-Essentials) | Bash, file systems, permissions, shell scripting |
+| ⚪ | [Module 03: Python Programming](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/03-Python-Programming) | Core syntax, OOP, file handling, automation |
+| ⚪ | [Module 04: Ethical Hacking](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/04-Ethical-Hacking) | Recon, scanning, exploitation, social engineering |
+| ⚪ | [Module 05: Advanced Penetration Testing](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/05-Advanced-Penetration-Testing) | Red teaming, evasion, post-exploitation |
+| ⚪ | [Module 06: Cyber Forensics](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/06-Cyber-Forensics-Investigation) | Data recovery, chain of custody, forensic tools |
+| ⚪ | [Module 07: Web App Security](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/07-Web-Application-Security) | OWASP Top 10, XSS, SQLi, SSTI |
+| ⚪ | [Module 08: Mobile App Security](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/08-Mobile-Application-Security) | Android/iOS threats, analysis tools |
+| ⚪ | [Module 09: IoT Pentesting](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/09-IoT-Pentesting) | Firmware analysis, hardware attacks |
+| ⚪ | [Module 10: Endpoint Security](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/10-Endpoint-Security) | Antivirus, EDR, Windows/Linux hardening |
+| ⚪ | [Module 11: AWS Associate](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/11-AWS-Associate) | EC2, IAM, S3, security groups, CLI |
+| ⚪ | [Module 12: AWS Cloud Security](https://github.com/smalik-cybersec/My-Cybersecurity-Journey/tree/main/12-AWS-Cloud-Security) | Cloud pentesting, identity, logging, encryption |
 
-- [ ] **Module 02: [Linux Essentials](./02-Linux-Essentials/)**  
-      _Mastery of terminal, permissions, user management, scripting._
+---
 
-- [ ] **Module 03: [Python Programming](./03-Python-Programming/)**  
-      _Python for automation, security scripting, and tool building._
+## 🧰 Tools & Technologies (Beginner Level)
 
-- [ ] **Module 04: [Ethical Hacking](./04-Ethical-Hacking/)**  
-      _Reconnaissance, scanning, vulnerability analysis, exploitation._
+| Category         | Tools / Technologies |
+|------------------|----------------------|
+| **Operating Systems** | Windows (Daily Use), Ubuntu/Linux (Learning Stage) |
+| **Programming**       | Python (Basics), Bash (Very Basics) |
+| **Text Editors**      | Visual Studio Code, Notepad++ |
+| **Version Control**   | Git & GitHub (Learning to Use) |
+| **Networking Tools**  | Ping, ipconfig/ifconfig, traceroute (Basic Commands) |
+| **Learning Platforms**| Craw Academy Labs, YouTube, ChatGPT, TryHackMe (Beginner Labs) |
 
-- [ ] **Module 05: [Advanced Penetration Testing](./05-Advanced-Penetration-Testing/)**
 
-- [ ] **Module 06: [Cyber Forensics Investigation](./06-Cyber-Forensics-Investigation/)**
+---
 
-- [ ] **Module 07: [Web Application Security](./07-Web-Application-Security/)**
+## 📅 Learning Roadmap (As a Beginner)
 
-- [ ] **Module 08: [Mobile Application Security](./08-Mobile-Application-Security/)**
+| 📆 Month | 🎯 Focus Area |
+|----------|--------------|
+| Month 1  | Understand what is networking and how the internet works |
+| Month 2  | Learn Linux basics and get comfortable with the terminal |
+| Month 3  | Start Python programming (variables, loops, if statements) |
+| Month 4  | Introduction to ethical hacking theory (footprinting, scanning) |
+| Month 5  | Learn how to use simple tools (Nmap, Wireshark basics) |
+| Month 6  | Complete small hands-on labs, revise all core concepts so far |
 
-- [ ] **Module 09: [IoT Pentesting](./09-IoT-Pentesting/)**
 
-- [ ] **Module 10: [Endpoint Security](./10-Endpoint-Security/)**
+---
 
-- [ ] **Module 11: [AWS Associate](./11-AWS-Associate/)**
+## 🏆 Upcoming Enhancements
 
-- [ ] **Module 12: [AWS Cloud Security](./12-AWS-Cloud-Security/)**
+- [ ] `NOTES.md`: My summarized notes from each module
+- [ ] `PROJECTS.md`: Personal and capstone security projects
+- [ ] `CERTIFICATES.md`: Digital badges & official certificates
+- [ ] `CHEATSHEETS/`: Short CLI and tool references
+
+---
+
+## 📬 Contact Me
+
+Let's connect and collaborate in the cybersecurity space:
+
+- 🔗 **GitHub:** [smalik-cybersec](https://github.com/smalik-cybersec)
+- 💼 **LinkedIn:** [linkedin.com/in/smalik-cybersec](https://www.linkedin.com/in/smalik-cybersec)
+- 📧 **Email:** smalik.cybersec@gmail.com
+---
+
+> _“Real hackers don't break things. They build understanding.”_  
+> — Shahid Ahmad Malik
+
+---
