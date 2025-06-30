@@ -1,7 +1,7 @@
-### [Level Name]
-# Module [Number]: [Module Name]
+### [Linux Essentials]
+# Module [02]: [Accessing the Command Line]
 
-**Module Objective:** [A concise, one-sentence goal for this specific module. e.g., "To master `for` and `while` loops in Python and apply them to practical automation tasks."]
+**Module Objective:** [To understand Command Line]
 
 ---
 
