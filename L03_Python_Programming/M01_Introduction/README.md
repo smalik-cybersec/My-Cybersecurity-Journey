@@ -1,7 +1,7 @@
-### [Level Name]
-# Module [Number]: [Module Name]
+### [Python Programming]
+# Module [01]: [Introduction]
 
-**Module Objective:** [A concise, one-sentence goal for this specific module. e.g., "To master `for` and `while` loops in Python and apply them to practical automation tasks."]
+**Module Objective:** [To read introduction]
 
 ---
 
