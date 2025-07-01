@@ -1,5 +1,3 @@
-Guided Exercise: Manage Default Permissions and File Access ....
-
 To **manage default permissions and file access** in Linux, you need to understand how the system sets permissions for new files and directories, and how these defaults can be controlled and customized for both system-wide and per-user needs.
 
 ## **Default Permissions: The Role of `umask`**
@@ -97,34 +95,3 @@ umask 027
 - Use a restrictive umask (like `077`) for sensitive systems.
 - For collaborative directories, use a less restrictive umask (like `002`), and manage group membership carefully.
 - Always test by creating a file after changing umask to confirm expected permissions.
-
-**Reference:** Content synthesized from "Linux Command Line and Shell Scripting Bible" by Richard Blum \& Christine Bresnahan, Chapter 6 (pages 149–158)[^1].
-
-If you want a practical quiz or more advanced scenarios (like sticky/setgid bits for shared directories), let me know!
-
-<div style="text-align: center">⁂</div>
-
-[^1]: linux-command-line-and-shell-scripting-bible-by-richard-blum-christine-bresnahan.pdf
-
-[^2]: RHCSA-Red-Hat-Enterprise-Linux-8.pdf
-
-[^3]: linux-pocket-guide-essential-commands-3rd-edition-9781491927571-1491927577_compress.pdf
-
-[^4]: rh124-9.0-student-guide.pdf
-
-[^5]: https://www.computernetworkingnotes.com/linux-tutorials/how-to-change-default-umask-permission-in-linux.html
-
-[^6]: https://docs.oracle.com/cd/E19683-01/817-3814/userconcept-95347/index.html
-
-[^7]: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_basic_system_settings/managing-file-system-permissions_configuring-basic-system-settings
-
-[^8]: https://docs.oracle.com/cd/E19683-01/816-4883/secfile-62/index.html
-
-[^9]: https://phoenixnap.com/kb/what-is-umask
-
-[^10]: https://www.liquidweb.com/blog/what-is-umask-and-how-to-use-it-effectively/
-
-[^11]: https://askubuntu.com/questions/44542/what-is-umask-and-how-does-it-work
-
-[^12]: https://www.cbtnuggets.com/blog/technology/system-admin/umask-file-permissions-a-crash-course
-

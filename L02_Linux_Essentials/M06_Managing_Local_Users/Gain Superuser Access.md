@@ -1,5 +1,3 @@
-Guided Exercise: Gain Superuser Access .
-
 To **gain superuser (root) access** in Linux, you use either the `su` or `sudo` commands. Superuser access is necessary for administrative tasks such as installing software, changing system configurations, or managing other users. Here’s a detailed explanation and a guided exercise based on best practices and the referenced Linux Pocket Guide[1].
 
 ## **Becoming the Superuser**
@@ -106,11 +104,3 @@ exit
 - **Only use superuser privileges when necessary.**
 Running commands as root can affect the entire system.
 - **Prefer `sudo` over `su`** for better security and auditing.
-
-**Reference:**
-All instructions and explanations are synthesized from the "Linux Pocket Guide, 3rd Edition" (see section: Becoming the Superuser)[1].
-
-If you want to practice more or need a quiz on superuser access, let me know!
-
-[1]: linux-pocket-guide-essential-commands-3rd-edition-9781491927571-1491927577_compress.pdf, "Becoming the Superuser", page 166
-

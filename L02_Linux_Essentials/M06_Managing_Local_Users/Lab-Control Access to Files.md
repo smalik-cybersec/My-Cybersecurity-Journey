@@ -146,36 +146,4 @@ ls -l /srv/webproject/testfile
 | chgrp | Change file group |
 | umask | Set default permissions for new files |
 
-**Reference:**
-All steps and concepts are directly based on "Red Hat System Administration I - Student Workbook Red Hat Enterprise Linux 9.0 RH124", Lab: Control Access to Files, page 224[^1].
-
-If you want to try a quiz or need clarification on any step, let me know!
-
-[^1] rh124-9.0-student-guide.pdf, Lab: Control Access to Files, page 224
-
-<div style="text-align: center">⁂</div>
-
-[^1]: rh124-9.0-student-guide.pdf
-
-[^2]: RHCSA-Red-Hat-Enterprise-Linux-8.pdf
-
-[^3]: linux-pocket-guide-essential-commands-3rd-edition-9781491927571-1491927577_compress.pdf
-
-[^4]: linux-command-line-and-shell-scripting-bible-by-richard-blum-christine-bresnahan.pdf
-
-[^5]: https://rh124byameye.hashnode.dev/chapter-7-control-access-to-files
-
-[^6]: https://www.redhat.com/en/blog/linux-file-permissions-explained
-
-[^7]: https://rhcsa.guru/?name=rh124-control-access-files
-
-[^8]: https://quizlet.com/618548459/rh124-chapter-7-controlling-access-to-files-flash-cards/
-
-[^9]: https://rh124byameye.hashnode.dev/chapter-15-access-linux-file-systems
-
-[^10]: https://quizlet.com/837652066/rhel-9-rh124-chapter-7-control-access-to-files-exam-notes-flash-cards/
-
-[^11]: https://www.youtube.com/watch?v=uz0S2yEVDTM
-
-[^12]: https://www.learningtree.com/courses/red-hat-system-administration-i-rh124/
 

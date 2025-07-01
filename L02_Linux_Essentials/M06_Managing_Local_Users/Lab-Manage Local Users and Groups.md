@@ -1,4 +1,4 @@
-ere is a comprehensive **lab** for "Manage Local Users and Groups," synthesizing the expected learning outcomes and practical tasks from the Red Hat RH124 guide[^1].
+Here is a comprehensive **lab** for "Manage Local Users and Groups," synthesizing the expected learning outcomes and practical tasks from the Red Hat RH124 guide[^1].
 
 ## **Lab: Manage Local Users and Groups**
 

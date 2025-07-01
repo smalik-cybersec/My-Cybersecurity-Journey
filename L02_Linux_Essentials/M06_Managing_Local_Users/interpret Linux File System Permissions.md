@@ -1,7 +1,3 @@
-
-
-Quiz: Interpret Linux File System Permissions .
-
 Here is a detailed explanation of how to **interpret Linux file system permissions**, as presented in the Red Hat System Administration I Student Guide (RH124, section 7, page 200)[^1].
 
 ## **Understanding Linux File System Permissions**
@@ -94,37 +90,3 @@ Occasionally, you may see `s`, `t`, or `S` in the permission string:
 - **Security:** Prevent unauthorized access or modification.
 - **Collaboration:** Allow group members to work together on shared files/directories.
 - **System Integrity:** Protect system files from accidental or malicious changes.
-
-**Reference:**
-Content synthesized from "Red Hat System Administration I - Student Workbook Red Hat Enterprise Linux 9.0 RH124", section 7, page 200[^1].
-
-If you want to practice with real file examples or need more quiz questions, just ask!
-
-[^1] rh124-9.0-student-guide.pdf, section 7, page 200
-
-<div style="text-align: center">⁂</div>
-
-[^1]: rh124-9.0-student-guide.pdf
-
-[^2]: RHCSA-Red-Hat-Enterprise-Linux-8.pdf
-
-[^3]: linux-pocket-guide-essential-commands-3rd-edition-9781491927571-1491927577_compress.pdf
-
-[^4]: linux-command-line-and-shell-scripting-bible-by-richard-blum-christine-bresnahan.pdf
-
-[^5]: https://phoenixnap.com/kb/linux-file-permissions
-
-[^6]: https://digitalcloud.training/understanding-the-linux-file-system-and-file-permissions/
-
-[^7]: https://www.redhat.com/en/blog/linux-file-permissions-explained
-
-[^8]: https://linuxize.com/post/understanding-linux-file-permissions/
-
-[^9]: https://www.linuxfoundation.org/blog/blog/classic-sysadmin-understanding-linux-file-permissions
-
-[^10]: https://www.warp.dev/terminus/linux-file-permissions-explained
-
-[^11]: https://petri.com/linux-file-permissions/
-
-[^12]: https://unstop.com/blog/linux-file-permissions
-
