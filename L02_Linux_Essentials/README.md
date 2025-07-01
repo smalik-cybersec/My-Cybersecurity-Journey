@@ -1,22 +1,18 @@
-# Level [Number]: [Level Name]
+# ✅ Progress Tracker – [Level Name]
 
-> **Level Objective:** [To build a comprehensive and practical command of the Linux operating system, covering everything from basic navigation to advanced system administration and scripting, in preparation for real-world cybersecurity operations.]
-
----
-
-### Module Breakdown & Progress
-
-*A complete list of all modules within this level. Each module has its own detailed `README.md` file.*
-
-| Status | Module Number & Name                                         | Key Focus Areas                                     |
-| :----: | :----------------------------------------------------------- | :-------------------------------------------------- |
-|   ✅   | **[M01: Module Name](./M01_Module_Name/)**                   | `[e.g., System Basics, RHEL Introduction]`          |
-|   ✅   | **[M02: Module Name](./M02_Module_Name/)**                   | `[e.g., CLI, Bash Shell]`                           |
-|   ⏳   | **[M03: Module Name](./M03_Module_Name/)**                   | `[e.g., File Manipulation, `ls`, `cp`, `mv`]`       |
-|   ⬜   | **[M04: Module Name](./M04_Module_Name/)**                   | `[e.g., Getting Help, `man` pages]`                 |
+This file tracks which modules I’ve completed in this level.
 
 ---
-**Legend:**
-*   ✅: Completed
-*   ⏳: In Progress
-*   ⬜: Not Started
+
+## 📘 Modules Completed
+
+- [ ] M01_ [Module Title]
+- [ ] M02_ [Module Title]
+- [ ] M03_ [Module Title]
+- [ ] M04_ [Module Title]
+- [ ] M05_ [Module Title]
+- [ ] M06_ [Module Title]
+- [ ] M07_ [Module Title]
+- [ ] M08_ [Module Title]
+- [ ] M09_ [Module Title]
+- [ ] M10_ [Module Title]
