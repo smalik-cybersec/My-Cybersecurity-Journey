@@ -4,16 +4,6 @@
 
 ---
 
-### Summary of Key Skills Acquired
-
-*Across all modules in this level, I have developed proficiency in:*
-
-*   **[Skill Category 1, e.g., Core Concepts]:** `[Skill A]`, `[Skill B]`, `[Skill C]`
-*   **[Skill Category 2, e.g., Key Tools/Commands]:** `[Tool A]`, `[Tool B]`, `[Tool C]`
-*   **[Skill Category 3, e.g., Practical Applications]:** `[Application A]`, `[Application B]`
-
----
-
 ### Module Breakdown & Progress
 
 *A complete list of all modules within this level. Each module has its own detailed `README.md` file.*
