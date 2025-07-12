@@ -1,268 +1,224 @@
-````markdown
-# 🧪 Lab: Monitor and Manage Linux Processes
-
-## 1. 🧠 What Is It (Definition + Explanation)
-* Monitoring and managing Linux processes involves **observing**, **controlling**, and **optimizing** the execution of programs (processes) running on a Linux system.
-* This includes identifying running processes, analyzing their resource usage (CPU, memory, I/O), and managing their behavior using tools like `ps`, `top`, `htop`, `kill`, and `nice/renice`.
+Here is your complete, structured, and GitHub-ready **Lab Guide** for:
 
 ---
 
-## 2. 💡 Real-World Use Cases
-* **System Administration** – Detect and stop runaway or zombie processes.
-* **Cybersecurity** – Identify suspicious or malicious processes.
-* **DevOps Monitoring** – Ensure services/applications don’t overload system resources.
-* **Performance Tuning** – Monitor and prioritize critical processes.
-* **Scripting Automation** – Build scripts to monitor and terminate specific processes.
+# 🧪 **Lab: Monitor and Manage Linux Processes**
+
+> *Linux Essentials – Red Hat System Administration*
+> *Craw Cyber Security One-Year Diploma – Page 266*
 
 ---
 
-## 3. 💻 Examples
+## 🎯 Objective
 
-### 🔍 View All Running Processes
+In this lab, you will practice:
+
+* Monitoring process activity using `ps`, `top`, and `htop`
+* Identifying high resource-consuming processes
+* Managing (pausing, resuming, terminating) processes
+* Using tools like `kill`, `pkill`, `killall`, and `nice`/`renice` for process control
+
+> This lab brings together everything you’ve learned about **monitoring**, **managing**, and **controlling** Linux processes in real time and statically.
+
+---
+
+## 🧰 Requirements
+
+* A Linux system (VM, WSL, or native install)
+* Terminal access with user privileges
+* Optional: GUI apps like `gedit`, or access to `htop` (install if needed)
+
+---
+
+## 🧭 Step-by-Step Instructions
+
+---
+
+### 🔹 **Step 1: Launch Test Processes**
+
+Run a few dummy processes in the background:
+
+```bash
+sleep 600 &
+sleep 900 &
+gedit &           # If GUI is available
+```
+
+✅ Use `jobs` to confirm background jobs:
+
+```bash
+jobs
+```
+
+---
+
+### 🔹 **Step 2: Monitor Processes with `ps`**
+
 ```bash
 ps aux
-````
+```
 
-### 🧠 Monitor in Real Time
+Search for specific processes:
+
+```bash
+ps aux | grep sleep
+```
+
+Filter and sort by CPU usage:
+
+```bash
+ps -eo pid,ppid,%cpu,%mem,stat,cmd --sort=-%cpu | head -10
+```
+
+---
+
+### 🔹 **Step 3: Live Monitoring with `top`**
 
 ```bash
 top
 ```
 
-### 🧠 Interactive Monitoring
+In `top`:
+
+* Press `P` → Sort by CPU usage
+* Press `M` → Sort by memory
+* Press `k` → Enter PID to kill
+* Press `r` → Enter PID to renice (change priority)
+* Press `q` → Exit
+
+✅ Note high-usage or zombie (`Z`) processes, if any.
+
+---
+
+### 🔹 **Step 4: Use `htop` (Optional but Recommended)**
+
+Install and run:
 
 ```bash
+sudo apt install htop       # For Debian/Ubuntu
+sudo yum install htop       # For RHEL/CentOS
 htop
 ```
 
-### 🧊 Stop or Kill Process
+In `htop`:
 
-```bash
-kill <PID>
-kill -9 <PID>   # Forcefully kill
-```
-
-### 🔢 Sort Processes by Resource Usage
-
-```bash
-ps aux --sort=-%mem | head -5
-```
-
-### 🎯 Change Process Priority
-
-```bash
-nice -n 10 ./my_script.sh      # Start with lower priority
-renice -n -5 -p <PID>          # Increase priority of existing process
-```
+* Use arrow keys to navigate
+* Use `F6` to sort
+* Use `F9` to kill
+* Use `F3` to search
+* Use `F10` to quit
 
 ---
 
-## 4. 🧪 Lab Task (Hands-On Practice)
+### 🔹 **Step 5: Pause, Resume, and Kill Jobs**
 
-> ⚠️ **!! CRITICAL SAFETY WARNING !!:** Tasks **MUST ONLY** be done in safe, controlled environments (VMs, isolated labs), NEVER on real systems without explicit permission.
-
----
-
-### 🎯 Lab Objective:
-
-Use command-line tools to monitor, prioritize, and terminate Linux processes safely and efficiently.
-
----
-
-## 🧪 Lab Setup Steps:
-
-### 🔧 Step 1: Start a Simulated Process Load
+#### Suspend a job (foreground process):
 
 ```bash
-yes > /dev/null &
-stress --cpu 2 --timeout 60 &
+Ctrl + Z
 ```
 
-> (Install stress tool with `sudo apt install stress -y` if needed)
-
----
-
-### 🔎 Step 2: View and Analyze Processes
+#### Resume job in background:
 
 ```bash
-ps aux | head -5
+bg %1
 ```
+
+#### Resume job in foreground:
 
 ```bash
-top
+fg %1
 ```
 
-```bash
-htop   # Optional
-```
-
-* Sort by CPU or memory.
-* Identify PIDs of the load-generating processes.
-
----
-
-### ⚙️ Step 3: Adjust Process Priorities
-
-#### A) Launch a new process with lower priority:
-
-```bash
-nice -n 15 sleep 300 &
-```
-
-#### B) Increase priority (lower nice value) of a running process:
-
-```bash
-sudo renice -n -5 -p <PID>
-```
-
----
-
-### 🛑 Step 4: Kill Processes Safely
-
-1. List all `yes` processes:
-
-```bash
-ps aux | grep yes
-```
-
-2. Kill them:
-
-```bash
-killall yes
-```
-
-3. Force kill if needed:
+#### Kill a process by PID:
 
 ```bash
 kill -9 <PID>
 ```
 
----
-
-### 🔁 Step 5: Use `pidstat` to Monitor a Specific PID
+#### Kill all `sleep` processes:
 
 ```bash
-sudo apt install sysstat -y
-pidstat -p <PID> 1
+pkill sleep
 ```
 
 ---
 
-### 📊 Step 6: Optional - Monitor I/O
+### 🔹 **Step 6: Change Process Priority**
+
+Start a new process with lower priority:
 
 ```bash
-sudo iotop
+nice -n 10 sleep 400 &
+```
+
+Change priority of an existing process:
+
+```bash
+renice -n 5 -p <PID>
+```
+
+✅ Check impact in `top` or `htop`.
+
+---
+
+## 📂 Final Commands Used
+
+```bash
+sleep 600 &
+ps aux
+ps -eo pid,%cpu,%mem,cmd --sort=-%cpu
+top
+htop
+kill -9 <PID>
+pkill sleep
+renice -n 5 -p <PID>
+nice -n 10 sleep 400 &
 ```
 
 ---
 
-## ✅ Post-Lab Checklist
+## 🧠 Reflection Questions
 
-✅ Launched and monitored high-load processes
-✅ Identified and analyzed CPU/memory usage
-✅ Changed process priority using `nice` and `renice`
-✅ Terminated processes using `kill` and `killall`
-✅ Used `ps`, `top`, `htop`, `pidstat`, and `iotop`
-
----
-
-## 5. 📋 Quiz (Knowledge Check)
-
-1. What command shows a static snapshot of all current processes?
-
-   * A) top
-   * B) ps aux
-   * C) kill
-   * D) jobs
-     ✅ **Answer:** B
-     *`ps aux` shows all running processes with their details.*
+1. What’s the benefit of using `htop` over `top`?
+2. How do you kill a process if you don’t know the PID?
+3. What’s the effect of using `nice` with a higher value?
+4. What command pauses a foreground job?
+5. How can you change a running process’s CPU priority?
 
 ---
 
-2. How do you forcefully kill a process by PID?
+## ✅ Completion Checklist
 
-   * A) kill -1 PID
-   * B) kill PID
-   * C) kill -9 PID
-   * D) pkill PID
-     ✅ **Answer:** C
-     *`kill -9` sends SIGKILL, forcefully ending the process.*
-
----
-
-3. Which command allows changing the priority of a running process?
-
-   * A) nice
-   * B) renice
-   * C) top
-   * D) iotop
-     ✅ **Answer:** B
-     *`renice` modifies the nice value of already-running processes.*
+| Task                                              | Status |
+| ------------------------------------------------- | ------ |
+| Started multiple background processes             | ✅      |
+| Monitored processes using `ps`, `top`, and `htop` | ✅      |
+| Killed and resumed jobs                           | ✅      |
+| Used `kill`, `pkill`, and `killall`               | ✅      |
+| Changed process priority with `nice` and `renice` | ✅      |
+| Verified CPU/memory usage in real time            | ✅      |
 
 ---
 
-4. What is the purpose of the `nice` command?
+## 📎 Summary
 
-   * A) List all running processes
-   * B) Start a process with lower or higher priority
-   * C) Terminate all processes
-   * D) Make your shell look colorful
-     ✅ **Answer:** B
-     *`nice` starts a new process with a specified scheduling priority.*
+You now know how to:
 
----
+* Monitor live and snapshot views of Linux processes
+* Identify and manage heavy or suspicious processes
+* Safely suspend, resume, and terminate processes
+* Adjust process priorities to manage CPU usage
+* Use both command-line and interactive tools (`top`, `htop`, `ps`, `kill`, etc.)
 
-5. What tool allows monitoring real-time I/O usage by process?
-
-   * A) ps
-   * B) top
-   * C) iotop
-   * D) vmstat
-     ✅ **Answer:** C
-     *`iotop` shows real-time disk I/O per process.*
+> This lab strengthens your command over the **Linux process management toolkit** — a critical skill for performance tuning, system recovery, and admin excellence.
 
 ---
 
-## 6. 🚨 Common Mistakes
+✅ Let me know if you’d like:
 
-* **Killing critical system processes** like `init`, `systemd`, or `sshd`.
-* **Misusing `kill -9`** without trying `kill` (SIGTERM) first.
-* **Incorrect PID usage** — confusing with Job IDs (`%1`).
-* **Not using `sudo`** where required (`iotop`, `renice`, etc.).
-* **Forgetting to clean up background processes** after monitoring.
+* 🧠 A quiz to test mastery of process monitoring and control
+* 📥 Markdown/PDF export for GitHub
+* ⏭️ Next lesson: *Analyze and Manage System Logs*
 
----
-
-## 7. ✨ Tips, Tricks, Best Practices
-
-* Use `top`/`htop` to monitor, then `kill`/`renice` intelligently.
-* Use `ps aux --sort=-%cpu` to catch greedy processes quickly.
-* Log monitoring data using `pidstat > log.txt`.
-* Avoid overusing `kill -9`; prefer graceful exits for stability.
-* Monitor and script with `watch` + `ps` for automation.
-
----
-
-## 8. ✅ Summary
-
-* You can **monitor**, **adjust**, and **terminate** processes using built-in Linux tools.
-* Use `ps`, `top`, `htop`, `pidstat`, `iotop`, and process control commands (`kill`, `nice`, `renice`).
-* Be careful when handling processes; some are critical to system stability.
-* Real-time monitoring supports both performance tuning and cybersecurity.
-
----
-
-## 9. 🔗 Related Topics
-
-* Linux Signals & Process Lifecycle
-* Job Control (`fg`, `bg`, `jobs`)
-* Shell Scripting with Monitoring
-* Cron-Based System Health Checks
-* System Performance Analysis (SAR, vmstat)
-
----
-
-Would you like to integrate this lab into a **custom shell script** to automatically monitor and kill high-resource processes? 🚀
-
-```
-```
+You're managing Linux processes like a true professional now, Shahid ⚙️🧠 Keep going strong!
