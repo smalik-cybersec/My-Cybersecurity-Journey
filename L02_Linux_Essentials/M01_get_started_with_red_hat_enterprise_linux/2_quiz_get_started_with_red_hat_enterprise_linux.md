@@ -1,7 +1,3 @@
-Here are some suggestions to improve the Markdown formatting and clarity of your quiz:
-
----
-
 # 🧠 Quiz: Get Started with Red Hat Enterprise Linux
 
 > Test your understanding of the Linux Essentials / Red Hat System Administration foundation module from Craw Cyber Security.
@@ -128,27 +124,3 @@ D. passwd
 
 **15. Why is Linux preferred in cybersecurity environments? (Mention two reasons)**  
 → *Your Answer:*
-
----
-
-## ✅ Answer Key (Available on Request)
-
-Let me know if you'd like:  
-- 📥 Downloadable PDF or Markdown version  
-- 🧪 A version with answers and explanations  
-- 🎯 Real-world scenario-based quiz  
-- 📊 Scoring sheet template for self-assessment  
-
----
-
-**Would you like a GitHub README version of this quiz next?**
-
----
-
-### Improvements made:
-- Enhanced use of bold and lists for readability.
-- Consistent formatting for instructions and questions.
-- Removed unnecessary line numbers and separators.
-- Improved whitespace and section spacing for clarity.
-
-Let me know if you want this in a specific style (e.g., GitHub README, PDF-ready) or need further customization!

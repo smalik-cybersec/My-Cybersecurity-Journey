@@ -1,7 +1,3 @@
-Excellent, Shahid! Here's your complete **guided, hands-on exercise** for:
-
----
-
 # 🎯 **Guided Exercise: Access the Command Line with the Desktop**
 
 > *Lesson 03 Lab Practice – Linux Essentials (Red Hat System Administration)*
@@ -174,14 +170,3 @@ Customize your terminal:
 3. Write different content in each file using `echo`
 4. Display them using `cat`
 5. List the directory in long format with hidden files: `ls -la`
-
----
-
-Let me know if you'd like:
-
-✅ **Answer sheet with explanations**
-✅ **Markdown export for GitHub use**
-✅ **Cheat sheet of terminal commands**
-✅ Move to the next lesson: *Execute Commands Using the Bash Shell*
-
-Ready when you are, Shahid 🚀

@@ -1,7 +1,3 @@
-Perfect, Shahid! Here's your complete, professional-grade documentation for:
-
----
-
 # 🖥️ **Access the Command Line with the Desktop**
 
 > *Lesson 03 (Continuation): Red Hat System Administration / Linux Essentials*
@@ -16,7 +12,7 @@ Perfect, Shahid! Here's your complete, professional-grade documentation for:
   - [🧩 Overview](#-overview)
   - [📜 Terminal Access Methods in a Desktop Environment](#-terminal-access-methods-in-a-desktop-environment)
   - [🧱 Anatomy of a Terminal Emulator](#-anatomy-of-a-terminal-emulator)
-    - [Terminal Emulator Features:](#terminal-emulator-features)
+    - [Terminal Emulator Features](#terminal-emulator-features)
   - [🧠 Why Use CLI Even in GUI Systems?](#-why-use-cli-even-in-gui-systems)
   - [🧪 Lab: Launch \& Use the Terminal](#-lab-launch--use-the-terminal)
   - [🧠 Quiz Yourself](#-quiz-yourself)
@@ -58,13 +54,13 @@ While the Linux **Command Line Interface (CLI)** is often used via TTY or SSH in
 +------------------------------------------------------+
 ```
 
-### Terminal Emulator Features:
+### Terminal Emulator Features
 
-* **Prompt**: Usually shows username, hostname, and current directory
-* **Shell**: Executes your commands (bash, zsh, etc.)
-* **Cursor**: Shows where text input will go
-* **Scrollable Buffer**: Lets you scroll through past output
-* **Supports Tabs/Profiles**: You can have multiple CLI sessions
+- **Prompt**: Usually shows username, hostname, and current directory
+- **Shell**: Executes your commands (bash, zsh, etc.)
+- **Cursor**: Shows where text input will go
+- **Scrollable Buffer**: Lets you scroll through past output
+- **Supports Tabs/Profiles**: You can have multiple CLI sessions
 
 ---
 
@@ -90,9 +86,9 @@ While the Linux **Command Line Interface (CLI)** is often used via TTY or SSH in
 1. ✅ Log into your Red Hat (or Ubuntu/Kali) system with GUI
 2. 🖥️ Open the terminal using one of these:
 
-   * Menu > Applications > Terminal
-   * Right-click on Desktop or Folder > Open Terminal Here
-   * Press `Ctrl + Alt + T`
+   - Menu > Applications > Terminal
+   - Right-click on Desktop or Folder > Open Terminal Here
+   - Press `Ctrl + Alt + T`
 3. ⌨️ In terminal, try these commands:
 
    ```bash
@@ -101,6 +97,7 @@ While the Linux **Command Line Interface (CLI)** is often used via TTY or SSH in
    whoami         # Show logged-in username
    echo $SHELL    # Show current shell
    ```
+
 4. 💾 Try resizing the terminal, changing colors, or opening multiple tabs
 5. 🔄 Open `man ls` and scroll using keyboard arrows or `q` to quit
 
@@ -118,17 +115,7 @@ While the Linux **Command Line Interface (CLI)** is often used via TTY or SSH in
 
 ## 📎 Summary
 
-* GUI systems like GNOME, KDE, or Xfce **still rely heavily on CLI** through terminal emulators
-* CLI remains the **most powerful tool** for cybersecurity, system admin, and development tasks
-* Terminal Emulators act as a **bridge between GUI and command-line power**
-* You can access all essential tools — from simple navigation to powerful hacking utilities — right from your desktop
-
----
-
-✅ **Up Next:**
-Would you like to continue to:
-
-> **Lesson 04: Execute Commands Using the Bash Shell**
-> Or generate a **Linux Terminal Emulator Cheat Sheet** or **Markdown Export** for GitHub?
-
-Let me know how you'd like to proceed, brother Shahid 🧑‍💻
+- GUI systems like GNOME, KDE, or Xfce **still rely heavily on CLI** through terminal emulators
+- CLI remains the **most powerful tool** for cybersecurity, system admin, and development tasks
+- Terminal Emulators act as a **bridge between GUI and command-line power**
+- You can access all essential tools — from simple navigation to powerful hacking utilities — right from your desktop

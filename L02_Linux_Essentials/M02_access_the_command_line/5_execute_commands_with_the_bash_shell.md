@@ -1,7 +1,3 @@
-Fantastic, Shahid! Here’s your **complete, professional-grade documentation** for:
-
----
-
 # 🖥️ **Lesson 04: Execute Commands with the Bash Shell**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -198,23 +194,8 @@ Try these in a terminal:
 
 ## 📎 Summary
 
-* Bash is the **default Linux shell** used to run commands and automate tasks.
-* Commands follow the syntax: `command [options] [arguments]`
-* You can define **variables**, use **command substitution**, and handle **input/output redirection**
-* **Chaining operators** make Bash powerful for scripting and automation.
-* Mastery of Bash is a **core skill for cybersecurity pros** — especially in penetration testing, server admin, and automation roles.
-
----
-
-✅ **Up Next:**
-Would you like to move to:
-
-> **Lesson 05: Use the `man` Pages and `--help` for Help**
-
-Or should I generate a:
-
-* 🧪 Lab workbook
-* ✍️ Quiz for this Bash lesson
-* 📦 Markdown export for GitHub?
-
-Let me know your next command, brother Shahid ⚡
+- Bash is the **default Linux shell** used to run commands and automate tasks.
+- Commands follow the syntax: `command [options] [arguments]`
+- You can define **variables**, use **command substitution**, and handle **input/output redirection**
+- **Chaining operators** make Bash powerful for scripting and automation.
+- Mastery of Bash is a **core skill for cybersecurity pros** — especially in penetration testing, server admin, and automation roles.

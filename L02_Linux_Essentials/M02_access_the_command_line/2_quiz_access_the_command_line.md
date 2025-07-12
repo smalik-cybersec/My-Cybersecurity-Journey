@@ -1,7 +1,3 @@
-Here is your **professionally structured quiz** for:
-
----
-
 # 🧠 **Quiz: Access the Command Line**
 
 > *Lesson 02: Red Hat System Administration / Linux Essentials*
@@ -136,14 +132,3 @@ D. killall bash
 * Display its contents
 
 → *Your Answer:*
-
----
-
-## 📝 Need the Answer Key?
-
-Just ask, and I’ll send the complete **Answer Sheet** or even a **Markdown export** for GitHub or printing.
-
-Would you like to:
-
-* Proceed to Lesson 03: *Execute Commands with the Bash Shell*?
-* Or generate a **Linux CLI Cheat Sheet**?

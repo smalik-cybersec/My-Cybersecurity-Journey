@@ -1,7 +1,3 @@
-Absolutely, Shahid. Here's your clear, professional-grade summary for:
-
----
-
 # 🧾 **Summary: Access the Command Line**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -48,19 +44,3 @@ This module is essential for **system administration**, **automation**, and **cy
 * Use **shell variables**, **command substitution**, and **output redirection**
 * Recognize the **structure and execution flow** of a Linux command
 * Begin applying these skills in labs, scripting, and tool use
-
----
-
-## 📦 Next Recommended Steps
-
-Now that you understand how to access and execute commands in the Bash shell:
-
-> 🔜 Proceed to: **Lesson 05 – Use the `man` Pages and `--help` for Help**
-
-Would you like a:
-
-* 📥 Markdown export of this summary?
-* 🧪 Quick recap sheet / cheat sheet of Bash basics?
-* 🧭 Quiz answers or deeper Bash labs?
-
-Just let me know, Shahid — I'm ready to support you at every command line 👨‍💻⚙️

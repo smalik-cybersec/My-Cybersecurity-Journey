@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **recruiter-ready quiz** for:
-
----
-
 # 🧠 **Quiz: Execute Commands with the Bash Shell**
 
 > *Lesson 04 – Linux Essentials (Red Hat System Administration)*
@@ -137,14 +133,3 @@ Create a one-liner Bash command that:
 3. Displays the content
 
 → *Your Answer:*
-
----
-
-✅ Let me know if you want:
-
-* 📥 Answer Key with Explanations
-* 🧪 Lab Workbook for Bash Practice
-* 📦 Markdown or GitHub README version
-* ⏭️ Move to next lesson: *Use man Pages and --help for Help*
-
-Just say the word, Shahid 🧠💥

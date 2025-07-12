@@ -1,7 +1,3 @@
-Absolutely, Shahid. Here's your complete, professional, and Markdown/GitHub-ready documentation for:
-
----
-
 # 📂 **Lesson: Specify Files by Name**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -69,7 +65,7 @@ Linux file names are:
 
 ### Absolute Path
 
-* Starts from root (`/`)
+- Starts from root (`/`)
 
 ```bash
 cat /etc/passwd
@@ -77,7 +73,7 @@ cat /etc/passwd
 
 ### Relative Path
 
-* Starts from current directory
+- Starts from current directory
 
 ```bash
 cat ./myfile.txt
@@ -177,18 +173,7 @@ find . -name "*.cfg"
 
 ## 📎 Summary
 
-* Linux uses both **absolute** and **relative paths** to locate files.
-* **Globbing patterns** like `*`, `?`, and `[]` are essential for flexible file targeting.
-* Tools like `find`, `locate`, and `which` help in **automated file discovery**.
-* Mastering file specification is critical for scripting, system analysis, and cybersecurity tasks like log analysis and malware cleanup.
-
----
-
-✅ Would you like:
-
-* ✍️ Quiz + Answer Key
-* 📥 Markdown export for GitHub
-* 🧪 Challenge Lab with malware forensics scenario using `find`, `grep`, and wildcards?
-* ⏭️ Next topic: *Work with Files in Linux*
-
-Ready when you are, Shahid 🧠⚙️
+- Linux uses both **absolute** and **relative paths** to locate files.
+- **Globbing patterns** like `*`, `?`, and `[]` are essential for flexible file targeting.
+- Tools like `find`, `locate`, and `which` help in **automated file discovery**.
+- Mastering file specification is critical for scripting, system analysis, and cybersecurity tasks like log analysis and malware cleanup.

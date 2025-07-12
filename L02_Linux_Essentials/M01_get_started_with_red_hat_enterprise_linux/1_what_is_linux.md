@@ -1,7 +1,3 @@
-Certainly! Here’s an improved, even more professional and visually engaging version of your markdown lesson, with enhanced formatting, clarity, and readability. I’ve also added subtle improvements to the structure, section headers, and some callouts for actionable value.
-
----
-
 # 🧠 What Is Linux?
 
 *Lesson 01, Module 01: Getting Started with Red Hat Enterprise Linux (Linux Essentials – Craw Security)*
@@ -10,16 +6,18 @@ Certainly! Here’s an improved, even more professional and visually engaging ve
 
 ## 📚 Table of Contents
 
-- [🧩 Introduction](#-introduction)
-- [🕰️ A Brief History of Linux](#️-a-brief-history-of-linux)
-- [💡 Key Characteristics of Linux](#-key-characteristics-of-linux)
-- [🎛️ Components of a Linux System](#️-components-of-a-linux-system)
-- [📦 Linux Distributions (Distros)](#-linux-distributions-distros)
-- [🆚 Linux vs Other Operating Systems](#-linux-vs-other-operating-systems)
-- [📍 Why Linux is Essential in Cybersecurity](#-why-linux-is-essential-in-cybersecurity)
-- [🧪 Lab Activities](#-lab-activities)
-- [🧠 Quiz Yourself](#-quiz-yourself)
-- [📎 Further Reading & Resources](#-further-reading--resources)
+- [🧠 What Is Linux?](#-what-is-linux)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🧩 Introduction](#-introduction)
+  - [🕰️ A Brief History of Linux](#️-a-brief-history-of-linux)
+  - [💡 Key Characteristics of Linux](#-key-characteristics-of-linux)
+  - [🎛️ Components of a Linux System](#️-components-of-a-linux-system)
+  - [📦 Linux Distributions (Distros)](#-linux-distributions-distros)
+  - [🆚 Linux vs Other Operating Systems](#-linux-vs-other-operating-systems)
+  - [📍 Why Linux is Essential in Cybersecurity](#-why-linux-is-essential-in-cybersecurity)
+  - [🧪 Lab Activities](#-lab-activities)
+  - [🧠 Quiz Yourself](#-quiz-yourself)
+  - [📎 Further Reading \& Resources](#-further-reading--resources)
 
 ---
 
@@ -113,7 +111,7 @@ Certainly! Here’s an improved, even more professional and visually engaging ve
 
 ## 🧪 Lab Activities
 
-> _Use a Red Hat-compatible VM, or Ubuntu/Kali if RHEL isn’t available._
+> *Use a Red Hat-compatible VM, or Ubuntu/Kali if RHEL isn’t available.*
 
 1. **Install a Linux OS** (RHEL, CentOS, Ubuntu, Kali) in VirtualBox
 2. **Explore directory structure:**  

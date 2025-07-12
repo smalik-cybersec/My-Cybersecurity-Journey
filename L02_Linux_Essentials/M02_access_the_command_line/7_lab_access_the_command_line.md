@@ -1,7 +1,3 @@
-Here is your complete, **lab-ready exercise** for:
-
----
-
 # 🧪 **Lab: Access the Command Line**
 
 > *Lesson 04 Hands-On Lab – Linux Essentials (Red Hat System Administration)*
@@ -149,14 +145,3 @@ echo "User: $(whoami), Date: $(date), Uptime: $(uptime)" > sysinfo.txt && cat sy
 * Input/output redirection and error handling
 * Conditional command execution
 * Real-world Bash command-line usage skills
-
----
-
-Let me know if you want:
-
-* 📥 Markdown/PDF export of this lab
-* 📝 Answer sheet for the reflection section
-* 🧪 Additional Bash challenges
-* ⏭️ Move to next lesson: *Lesson 05: Use man Pages and --help for Help*
-
-Always ready, Shahid 💻🔐

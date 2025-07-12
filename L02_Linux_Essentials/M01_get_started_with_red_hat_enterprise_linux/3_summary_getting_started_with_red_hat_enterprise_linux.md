@@ -1,7 +1,3 @@
-Here are some suggestions to improve and polish your Markdown summary for clarity, professionalism, and engagement:
-
----
-
 # 📘 **Summary: Getting Started with Red Hat Enterprise Linux**
 
 > *Linux Essentials Module – Craw Cyber Security One-Year Diploma*  
@@ -59,21 +55,3 @@ After this lesson, you should be able to:
 - Use the **shell and basic commands**
 - Recognize key **Linux distributions** and their use cases
 - Understand why **Linux is essential in cybersecurity and server-side operations**
-
----
-
-### 🔗 Next Steps
-
-You’re now ready to dive into:
-
-> 🧭 **Lesson 02: Accessing the Command Line**  
-> Learn to navigate Linux via Bash, use keyboard shortcuts, and start controlling your system like a pro.
-
----
-
-Would you like a visual cheat sheet or command map for Linux basics?  
-Or shall we move directly to Lesson 02: *Accessing the Command Line*?
-
----
-
-Let me know if you want the improved version as a Markdown file or need it further customized!

@@ -1,7 +1,3 @@
-Excellent, Shahid! Here's your **professional, structured, and markdown-ready documentation** for:
-
----
-
 # 💻 Lesson 02: **Access the Command Line**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -30,10 +26,10 @@ Excellent, Shahid! Here's your **professional, structured, and markdown-ready do
 
 The **Command Line Interface (CLI)** is a text-based interface used to interact with the operating system. It allows users to issue commands to perform tasks such as:
 
-* Navigating the file system
-* Managing users and permissions
-* Starting/stopping services
-* Viewing logs, monitoring systems, and much more
+- Navigating the file system
+- Managing users and permissions
+- Starting/stopping services
+- Viewing logs, monitoring systems, and much more
 
 > Unlike GUI (Graphical User Interface), the CLI is **lightweight, faster**, and gives **more control**.
 
@@ -137,16 +133,7 @@ Try these exercises in a Linux terminal or VM:
 
 ## 📎 Summary
 
-* The **command line** is essential for professional Linux system use.
-* Tools like `bash`, `tty`, and `ssh` give full access to system internals.
-* Mastering commands like `cd`, `ls`, `touch`, and `man` forms the foundation of Linux proficiency.
-* CLI is **indispensable** for cybersecurity, DevOps, administration, and scripting.
-
----
-
-✅ Would you like the next lesson:
-
-> *Lesson 03: Execute Commands with the Bash Shell*
-> Or would you prefer a **Cheat Sheet**, **GitHub README format**, or a **Markdown export** of this lesson?
-
-Let me know how you'd like to proceed, Captain Shahid 🚀
+- The **command line** is essential for professional Linux system use.
+- Tools like `bash`, `tty`, and `ssh` give full access to system internals.
+- Mastering commands like `cd`, `ls`, `touch`, and `man` forms the foundation of Linux proficiency.
+- CLI is **indispensable** for cybersecurity, DevOps, administration, and scripting.

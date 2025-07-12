@@ -1,7 +1,3 @@
-Here is your complete, professional-grade **quiz** for:
-
----
-
 # 🧠 **Quiz: Describe Linux File System Hierarchy Concepts**
 
 > *Lesson: Linux File System Hierarchy – Red Hat System Administration*
@@ -135,14 +131,3 @@ Write a command to:
 * List all files in the `/etc` directory in long format, including hidden files.
 
 → *Your Answer:*
-
----
-
-Let me know if you'd like:
-
-* ✅ Answer Key with Explanations
-* 📥 Markdown export for GitHub
-* 🧪 Lab worksheet for practicing file system navigation
-* ⏭️ Move to next lesson: *Work with Files in Linux*
-
-Ready when you are, Shahid! 🧑‍💻📂

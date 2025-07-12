@@ -1,7 +1,3 @@
-Here is your complete, recruiter-grade **quiz** for:
-
----
-
 # 🧠 **Quiz: Specify Files by Name**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -140,13 +136,3 @@ D. `locate /etc/*.cfg`
 ```bash
 find /var/log -name "*.log" -mtime -3
 ```
-
----
-
-Let me know if you’d like:
-
-* 📥 **Answer key with explanations**
-* 🧪 **Lab worksheet** using `find`, `locate`, and wildcards
-* ⏭️ **Next topic:** *Work with Files in Linux*
-
-You're navigating the file system like a true sysadmin now, Shahid 🧑‍💻📁

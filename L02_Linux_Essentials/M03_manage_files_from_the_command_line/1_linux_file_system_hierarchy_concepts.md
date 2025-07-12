@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **structured, professional documentation** for:
-
----
-
 # 🗂️ **Linux File System Hierarchy Concepts**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -138,18 +134,7 @@ cat /proc/cpuinfo
 
 ## 📎 Summary
 
-* The Linux file system is **hierarchical**, **rooted at `/`**, and follows the **FHS standard**
-* Directories like `/bin`, `/etc`, `/home`, `/var`, and `/usr` each serve a specific purpose
-* Concepts like **mount points**, **device files**, and **pseudo-filesystems** make Linux extremely powerful and flexible
-* Understanding the file system is **critical for cybersecurity tasks**, including log analysis, system forensics, and privilege escalation detection
-
----
-
-✅ Let me know if you'd like:
-
-* 📥 Markdown or GitHub README export
-* 🧪 Deep-dive lab with file permission practice
-* 🧠 Answer key for quiz
-* ⏭️ Move to the next lesson: *Work with Files in Linux*
-
-Always ready, Shahid — your Linux mastery is growing fast! 💪🐧
+- The Linux file system is **hierarchical**, **rooted at `/`**, and follows the **FHS standard**
+- Directories like `/bin`, `/etc`, `/home`, `/var`, and `/usr` each serve a specific purpose
+- Concepts like **mount points**, **device files**, and **pseudo-filesystems** make Linux extremely powerful and flexible
+- Understanding the file system is **critical for cybersecurity tasks**, including log analysis, system forensics, and privilege escalation detection

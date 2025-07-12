@@ -11,19 +11,25 @@ Here’s an improved version of your file, implementing all the enhancements pre
 
 ## 📚 Table of Contents
 
-- [🧑‍💻 Red Hat System Administration (Linux Essentials – Craw Security)](#-red-hat-system-administration-linux-essentials--craw-security)
-- [📚 Table of Contents](#-table-of-contents)
-- [🎯 Introduction](#-introduction)
-- [📦 Course Modules & Topics](#-course-modules--topics)
-- [💡 Key Skills You'll Gain](#-key-skills-youll-gain)
-- [🔐 Linux Security Concepts](#-linux-security-concepts)
-- [🛠️ Practical Commands and Examples](#️-practical-commands-and-examples)
-- [🧪 Lab Exercises](#-lab-exercises)
-- [🧠 Quiz Section](#-quiz-section)
-- [🎯 Real-World Use Cases](#-real-world-use-cases)
-- [📜 Certification Details](#-certification-details)
-- [📎 Resources & Further Reading](#-resources--further-reading)
-- [📝 Appendix: Hints & Solutions](#-appendix-hints--solutions)
+- [🧑‍💻 **Red Hat System Administration (Linux Essentials – Craw Security)**](#-red-hat-system-administration-linux-essentials--craw-security)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🎯 Introduction](#-introduction)
+  - [📦 Course Modules \& Topics](#-course-modules--topics)
+  - [💡 Key Skills You'll Gain](#-key-skills-youll-gain)
+  - [🔐 Linux Security Concepts](#-linux-security-concepts)
+  - [🛠️ Practical Commands and Examples](#️-practical-commands-and-examples)
+  - [🧪 Lab Exercises](#-lab-exercises)
+    - [1. Create \& Manage Users](#1-create--manage-users)
+    - [2. SSH Hardening](#2-ssh-hardening)
+    - [3. Network Troubleshooting](#3-network-troubleshooting)
+    - [4. Install \& Test Apache](#4-install--test-apache)
+    - [5. Log Analysis](#5-log-analysis)
+  - [🧠 Quiz Section](#-quiz-section)
+  - [🎯 Real-World Use Cases](#-real-world-use-cases)
+  - [📜 Certification Details](#-certification-details)
+  - [📎 Resources \& Further Reading](#-resources--further-reading)
+  - [📝 Appendix: Hints \& Solutions](#-appendix-hints--solutions)
+    - [Quiz Answers](#quiz-answers)
 
 ---
 
@@ -109,6 +115,7 @@ journalctl -xe
 # View running services
 systemctl list-units --type=service
 ```
+
 > **Tip:** Use `man <command>` or `<command> --help` to explore more options.
 
 ---
@@ -116,22 +123,27 @@ systemctl list-units --type=service
 ## 🧪 Lab Exercises
 
 ### 1. Create & Manage Users
+
 - Create a user `cyberlab`, assign them to a new group `secops`, and restrict their access to `/home/cyberlab_only`.
 - **Hint:** Use `useradd`, `groupadd`, `chown`, and change home directory permissions.
 
 ### 2. SSH Hardening
+
 - Harden SSH: disable password login, allow only specific users, and restart the SSH daemon.
 - **Hint:** Edit `/etc/ssh/sshd_config` using `PermitRootLogin no` and `AllowUsers`.
 
 ### 3. Network Troubleshooting
+
 - Set up and troubleshoot a network issue using `ip`, `ping`, and `/etc/resolv.conf`.
 - **Hint:** Use `ip addr`, `ping 8.8.8.8`, and check DNS settings.
 
 ### 4. Install & Test Apache
+
 - Install Apache (`httpd`) via DNF, enable auto-start, and verify with `curl localhost`.
 - **Hint:** Use `dnf install httpd`, `systemctl enable --now httpd`, and `curl localhost`.
 
 ### 5. Log Analysis
+
 - Use `journalctl` to investigate a simulated login failure.
 - **Hint:** Search for authentication failures using `journalctl -xe | grep 'authentication'`.
 
@@ -195,6 +207,7 @@ systemctl list-units --type=service
 ---
 
 **Next Steps:**
+
 - Request a hands-on lab workbook, quiz answer key, weekly study roadmap, or a GitHub README template.
 - Want visual diagrams or command-line simulations? Ask for links!
 - Send your next topic, or ask for a Markdown export.
