@@ -1,7 +1,3 @@
-Here is your complete, professional, GitHub-friendly documentation for:
-
----
-
 # 🧑‍💼 **Lesson: Gain Superuser Access**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -40,10 +36,10 @@ Here is your complete, professional, GitHub-friendly documentation for:
 
 The **root user**:
 
-* Has **UID 0**
-* Can read, write, and execute **any file**
-* Can install/uninstall packages, create users, modify system files
-* Is unrestricted by file permissions
+- Has **UID 0**
+- Can read, write, and execute **any file**
+- Can install/uninstall packages, create users, modify system files
+- Is unrestricted by file permissions
 
 This is equivalent to **Administrator** in Windows.
 
@@ -113,9 +109,9 @@ shahid ALL=(ALL) ALL
 
 You can also configure:
 
-* **Passwordless sudo**
-* **Command restrictions**
-* **Group-based access** (e.g., `wheel`, `sudo`)
+- **Passwordless sudo**
+- **Command restrictions**
+- **Group-based access** (e.g., `wheel`, `sudo`)
 
 ---
 
@@ -165,19 +161,8 @@ usermod -aG sudo shahid
 
 ## 📎 Summary
 
-* **Superuser (root)** access is powerful but dangerous—use it wisely.
-* `sudo` is the **recommended**, **auditable**, and **secure** method to elevate privileges.
-* `su` gives full root shell but is less secure and not logged by default.
-* The `sudoers` file (`/etc/sudoers`) controls access and must be edited safely with `visudo`.
-* Always apply the **Principle of Least Privilege** and log root access for audits.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz with answer key
-* 🧪 Guided lab on sudo/su and visudo
-* 📥 Markdown export for GitHub
-* ⏭️ Next lesson: *Manage File Permissions and Ownership*
-
-You're now ready to use root powers **securely and responsibly**, Shahid 🧑‍💻🔐
+- **Superuser (root)** access is powerful but dangerous—use it wisely.
+- `sudo` is the **recommended**, **auditable**, and **secure** method to elevate privileges.
+- `su` gives full root shell but is less secure and not logged by default.
+- The `sudoers` file (`/etc/sudoers`) controls access and must be edited safely with `visudo`.
+- Always apply the **Principle of Least Privilege** and log root access for audits.

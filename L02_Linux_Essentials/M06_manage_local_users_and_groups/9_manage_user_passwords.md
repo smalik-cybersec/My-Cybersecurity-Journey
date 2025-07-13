@@ -1,7 +1,3 @@
-Certainly, Shahid! Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🔐 **Lesson: Manage User Passwords**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -35,9 +31,9 @@ In Linux, managing user passwords is critical for ensuring **secure authenticati
 
 ## 🔑 Linux Password Management Basics
 
-* Each local user has a **hashed password entry** stored securely.
-* Only users with **sudo or root access** can change other users' passwords.
-* Password aging controls how often users must change their passwords.
+- Each local user has a **hashed password entry** stored securely.
+- Only users with **sudo or root access** can change other users' passwords.
+- Password aging controls how often users must change their passwords.
 
 ---
 
@@ -128,18 +124,7 @@ These are critical for enforcing **organization-wide security policies**.
 
 ## 📎 Summary
 
-* Linux uses `/etc/shadow` to securely store password hashes.
-* Use `passwd` to set or change passwords, and `chage` to control aging policies.
-* You can enforce regular password changes and prompt users to update before expiry.
-* Following strong password management practices is essential for **system hardening** and **regulatory compliance**.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 Guided lab for password aging and expiry
-* 🧠 Quiz with answers
-* 📥 Markdown/PDF export for GitHub
-* ⏭️ Next topic: *Understand File Permissions and Ownership*
-
-You're locking down user credentials like a true system defender, Shahid 🧑‍💻🔐 Keep securing!
+- Linux uses `/etc/shadow` to securely store password hashes.
+- Use `passwd` to set or change passwords, and `chage` to control aging policies.
+- You can enforce regular password changes and prompt users to update before expiry.
+- Following strong password management practices is essential for **system hardening** and **regulatory compliance**.

@@ -1,7 +1,3 @@
-Certainly, Shahid! Here is your **complete quiz** for:
-
----
-
 # 🧠 **Quiz: Describe User and Group Concepts**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -143,13 +139,3 @@ sudo useradd -m analyst
 sudo groupadd cyberops
 sudo usermod -aG cyberops analyst
 ```
-
----
-
-Let me know if you’d like:
-
-* ✅ Answer key
-* 📥 Markdown format for GitHub
-* ⏭️ Next topic: *Manage Local User and Group Accounts*
-
-You're learning the **identity and access control engine of Linux**, Shahid 🔐💻 Keep going strong!

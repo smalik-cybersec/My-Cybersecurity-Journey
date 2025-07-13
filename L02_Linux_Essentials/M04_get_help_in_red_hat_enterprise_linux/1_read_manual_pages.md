@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 📖 **Lesson: Read Manual Pages**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -17,7 +13,7 @@ Absolutely, Shahid! Here is your complete, professional, and GitHub-friendly doc
   - [📘 What Are Manual Pages ("man pages")?](#-what-are-manual-pages-man-pages)
   - [🧠 Why Use `man` Pages in Cybersecurity \& Linux Admin?](#-why-use-man-pages-in-cybersecurity--linux-admin)
   - [⚙️ Basic Syntax of the `man` Command](#️-basic-syntax-of-the-man-command)
-    - [Examples:](#examples)
+    - [Examples](#examples)
   - [📂 Structure of a `man` Page](#-structure-of-a-man-page)
   - [📚 `man` Sections Explained](#-man-sections-explained)
   - [🔎 Navigation Shortcuts in `man`](#-navigation-shortcuts-in-man)
@@ -39,11 +35,11 @@ Linux is well-known for its powerful built-in documentation system: **manual pag
 
 **Man pages** are detailed, sectioned documents built into Unix/Linux systems that describe:
 
-* Commands
-* Configuration file formats
-* System calls
-* Library functions
-* Kernel interfaces
+- Commands
+- Configuration file formats
+- System calls
+- Library functions
+- Kernel interfaces
 
 The `man` command is used to access them.
 
@@ -67,7 +63,7 @@ The `man` command is used to access them.
 man [section] command
 ```
 
-### Examples:
+### Examples
 
 ```bash
 man ls           # View the manual for 'ls'
@@ -150,18 +146,7 @@ man 8 fdisk
 
 ## 📎 Summary
 
-* The **`man` command** gives you access to full, offline documentation on most Linux components.
-* Each `man` page has structured information including usage, syntax, and options.
-* Sections help you find exactly what you need — user commands, configs, system calls, etc.
-* Mastering `man` boosts your **self-reliance**, **speed**, and **credibility** as a Linux user or cybersecurity professional.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz + Answer Key
-* 🧪 Lab to practice man navigation and discovery
-* 📥 Export for GitHub or print
-* ⏭️ Next topic: *Use `--help`, `info`, and `whatis` as alternatives to man*
-
-You now know how to find answers directly inside your system, Shahid — no StackOverflow needed! 📚🐧
+- The **`man` command** gives you access to full, offline documentation on most Linux components.
+- Each `man` page has structured information including usage, syntax, and options.
+- Sections help you find exactly what you need — user commands, configs, system calls, etc.
+- Mastering `man` boosts your **self-reliance**, **speed**, and **credibility** as a Linux user or cybersecurity professional.

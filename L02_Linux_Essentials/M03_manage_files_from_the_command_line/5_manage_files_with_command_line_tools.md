@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here’s your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🗃️ **Lesson: Manage Files with Command-line Tools**
 
 > *Module: Red Hat System Administration / Linux Essentials*
@@ -146,18 +142,7 @@ rm -r temp
 
 ## 📎 Summary
 
-* Linux provides powerful command-line tools for managing files and directories.
-* Tools like `cp`, `mv`, `rm`, `mkdir`, and `touch` form the core of file operations.
-* Understanding these commands is critical for **script automation**, **log analysis**, **file backups**, and **cybersecurity operations**.
-* Always use caution when deleting or overwriting files — there's no recycle bin on most Linux systems!
-
----
-
-✅ Would you like:
-
-* 🧠 Quiz + Answer Key
-* 📥 Markdown export for GitHub
-* 🧪 Challenge Lab for file ops in real-world cybersecurity scenarios
-* ⏭️ Next topic: *Work with Files in Linux (Continued)*
-
-You're becoming a Linux power user, Shahid — one command at a time ⚙️💪
+- Linux provides powerful command-line tools for managing files and directories.
+- Tools like `cp`, `mv`, `rm`, `mkdir`, and `touch` form the core of file operations.
+- Understanding these commands is critical for **script automation**, **log analysis**, **file backups**, and **cybersecurity operations**.
+- Always use caution when deleting or overwriting files — there's no recycle bin on most Linux systems!

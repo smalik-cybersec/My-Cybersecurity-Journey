@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-ready documentation for:
-
----
-
 # 🧩 **Lesson: Match File Names with Shell Expansions**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -33,10 +29,10 @@ Here is your complete, professional, and GitHub-ready documentation for:
 
 This includes:
 
-* **Filename expansion (globbing)**
-* **Brace expansion**
-* **Variable expansion**
-* **Command substitution**
+- **Filename expansion (globbing)**
+- **Brace expansion**
+- **Variable expansion**
+- **Command substitution**
 
 > This lesson focuses on **filename expansion (globbing)** and **brace expansion** for matching files.
 
@@ -46,9 +42,9 @@ This includes:
 
 Because:
 
-* You can operate on **multiple files** using just one command.
-* It allows automation of file-based tasks (backups, log cleanup, reports).
-* Shell scripts depend on pattern matching to scale across environments.
+- You can operate on **multiple files** using just one command.
+- It allows automation of file-based tasks (backups, log cleanup, reports).
+- Shell scripts depend on pattern matching to scale across environments.
 
 ---
 
@@ -155,17 +151,7 @@ ls demo_*.sh
 
 ## 📎 Summary
 
-* **Shell expansion** is essential for matching files dynamically in scripts and commands.
-* **Globbing** uses wildcards like `*`, `?`, and `[]` to match filenames.
-* **Brace expansion** is powerful for generating predictable sets of file names.
-* These features enable **efficient file handling**, **automation**, and **flexibility** — especially in cybersecurity scripts, backup systems, and log parsers.
-
----
-
-✅ Would you like:
-
-* ✍️ Quiz + Answer Key
-* 📥 Markdown export for your GitHub notes
-* ⏭️ Next topic: *Redirection and Piping in Linux Shell*
-
-You're mastering the shell like a scripting ninja, Shahid ⚔️🐚 Let’s keep automating!
+- **Shell expansion** is essential for matching files dynamically in scripts and commands.
+- **Globbing** uses wildcards like `*`, `?`, and `[]` to match filenames.
+- **Brace expansion** is powerful for generating predictable sets of file names.
+- These features enable **efficient file handling**, **automation**, and **flexibility** — especially in cybersecurity scripts, backup systems, and log parsers.

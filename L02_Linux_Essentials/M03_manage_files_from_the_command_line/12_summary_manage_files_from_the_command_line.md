@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your professional, GitHub-friendly **summary** for:
-
----
-
 # 📎 **Summary: Manage Files from the Command Line**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -84,13 +80,3 @@ In this lesson, you learned how to **create, modify, move, copy, rename, and del
 
 > 🔜 Move on to: **Redirect Output and Use Pipes**
 > You'll learn how to control where command output goes and chain commands using `>`, `>>`, `|`, and more — powerful for scripting, data analysis, and log management.
-
----
-
-Let me know if you'd like:
-
-* 📄 Markdown/PDF version
-* 🧪 Extra lab challenges for file forensics or automation
-* ✅ Full review quiz or flashcards
-
-You're building real admin and hacker-grade Linux skills now, Shahid 🔥🧑‍💻 Keep going!

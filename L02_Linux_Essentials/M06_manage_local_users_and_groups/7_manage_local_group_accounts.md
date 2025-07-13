@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your complete, structured, and GitHub-ready documentation for:
-
----
-
 # 👥 **Lesson: Manage Local Group Accounts**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -39,8 +35,8 @@ A **group** is a logical collection of users. Each file or process on the system
 
 Each user:
 
-* Has **one primary group**
-* May belong to **multiple supplementary groups**
+- Has **one primary group**
+- May belong to **multiple supplementary groups**
 
 ---
 
@@ -130,19 +126,8 @@ sudo groupdel security
 
 ## 📎 Summary
 
-* Linux groups allow collective permission management
-* Each user has one **primary group**, and zero or more **secondary groups**
-* Group info is stored in `/etc/group` and `/etc/gshadow`
-* Use `groupadd`, `groupdel`, `groupmod`, and `usermod -aG` to manage groups
-* Proper group management improves security, organization, and access control
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 Guided lab to practice group creation and membership
-* 🧠 Quiz with answers
-* 📥 Export to Markdown for GitHub
-* ⏭️ Next topic: *Manage File Permissions and Ownership*
-
-You're mastering access control like a real system admin, Shahid 🔐🧑‍💻 Keep going!
+- Linux groups allow collective permission management
+- Each user has one **primary group**, and zero or more **secondary groups**
+- Group info is stored in `/etc/group` and `/etc/gshadow`
+- Use `groupadd`, `groupdel`, `groupmod`, and `usermod -aG` to manage groups
+- Proper group management improves security, organization, and access control

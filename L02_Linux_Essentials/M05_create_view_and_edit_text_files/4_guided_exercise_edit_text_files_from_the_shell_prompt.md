@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **structured, hands-on guided exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Edit Text Files from the Shell Prompt**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -42,6 +38,7 @@ nano greetings.txt
   Welcome to your Linux shell editing lab.
   This is a file created with nano.
   ```
+
 * Press `Ctrl + O` → Save the file
 * Press `Enter` to confirm filename
 * Press `Ctrl + X` to exit nano
@@ -68,6 +65,7 @@ vim greetings.txt
    ```
    This line was added using vim.
    ```
+
 3. Press `Esc` → to return to normal mode
 4. Type `:wq` → Save and quit vim
 
@@ -169,13 +167,3 @@ cat ~/hostname_copy
 
 * You now know how to create, edit, and manage files using **`nano` and `vim`** from the shell prompt.
 * These skills are essential for editing config files, logs, and writing bash scripts directly in the terminal — even in emergency or recovery environments.
-
----
-
-✅ Let me know if you'd like:
-
-* 📥 Markdown or PDF export
-* 🧠 Quiz based on this lab
-* ⏭️ Next topic: *Understand and Modify Linux File Permissions*
-
-You're editing files like a true Linux professional now, Shahid 🧑‍💻📝 Keep pushing forward!

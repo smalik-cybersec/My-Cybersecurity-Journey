@@ -1,7 +1,3 @@
-Here is your clean, structured, and GitHub-friendly **summary** for:
-
----
-
 # 📎 **Summary: Create, View, and Edit Text Files**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -47,7 +43,7 @@ In this lesson, you learned how to **create**, **view**, and **edit** text files
 | `nano` | Beginner-friendly, easy to use |
 | `vim`  | Advanced, fast, modal editor   |
 
-#### 🔑 Key nano shortcuts:
+#### 🔑 Key nano shortcuts
 
 | Keys       | Action      |
 | ---------- | ----------- |
@@ -56,7 +52,7 @@ In this lesson, you learned how to **create**, **view**, and **edit** text files
 | `Ctrl + K` | Cut line    |
 | `Ctrl + U` | Paste line  |
 
-#### 🔑 Key vim commands:
+#### 🔑 Key vim commands
 
 | Keys/Command | Action              |
 | ------------ | ------------------- |
@@ -101,15 +97,3 @@ tail config.txt
 * ✅ Edit text files using `nano` and `vim`
 * ✅ Use redirection operators (`>`, `>>`, `cat >>`) to write and append content
 * ✅ Understand when and why to use terminal-based editing
-
----
-
-## ⏭️ Recommended Next Topic
-
-> 🔜 **Set Shell Aliases and Startup Files** – Personalize your terminal and automate your environment.
-
----
-
-Would you like this exported in **Markdown**, a matching **quiz**, or a **guided script editing lab**?
-
-You're now fully equipped to create and manage Linux files like a true professional, Shahid 🧑‍💻📁 Keep going strong!

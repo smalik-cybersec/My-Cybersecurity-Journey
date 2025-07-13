@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-ready documentation for:
-
----
-
 # 🔀 **Lesson: Redirect Output to a File or Program**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -16,10 +12,10 @@ Here is your complete, professional, and GitHub-ready documentation for:
   - [🎯 Introduction](#-introduction)
   - [🧠 What Is Redirection in Linux?](#-what-is-redirection-in-linux)
   - [➡️ Output Redirection Operators](#️-output-redirection-operators)
-    - [Examples:](#examples)
+    - [Examples](#examples)
   - [⬅️ Input Redirection](#️-input-redirection)
   - [❌ Error Redirection](#-error-redirection)
-    - [Redirect both STDOUT and STDERR:](#redirect-both-stdout-and-stderr)
+    - [Redirect both STDOUT and STDERR](#redirect-both-stdout-and-stderr)
   - [🔗 Combine Redirections](#-combine-redirections)
   - [🧪 Practical Examples](#-practical-examples)
   - [🧠 Quiz Yourself](#-quiz-yourself)
@@ -56,7 +52,7 @@ Linux handles three **standard I/O streams**:
 | `>`      | Redirect STDOUT (overwrite file) | `ls > list.txt`                |
 | `>>`     | Redirect STDOUT (append to file) | `echo "log entry" >> logs.txt` |
 
-### Examples:
+### Examples
 
 ```bash
 echo "This is a report" > report.txt        # Creates/overwrites
@@ -80,7 +76,7 @@ echo "Another line" >> report.txt           # Appends to existing file
 | `2>`     | Redirect STDERR         | `cat missing.txt 2> error.log` |
 | `2>>`    | Append STDERR to a file | `command 2>> error.log`        |
 
-### Redirect both STDOUT and STDERR:
+### Redirect both STDOUT and STDERR
 
 ```bash
 command > all.log 2>&1
@@ -132,18 +128,7 @@ sort < names.txt > sorted_names.txt
 
 ## 📎 Summary
 
-* Linux allows **redirecting output and input** to and from files and commands.
-* Operators like `>`, `>>`, `<`, `2>`, and `2>&1` control **standard streams**.
-* These tools are powerful in **scripting**, **log handling**, and **incident response**.
-* Always test your redirection in scripts to avoid overwriting critical data.
-
----
-
-✅ Would you like:
-
-* 🧪 Guided Lab: Redirection + Error Logging
-* 🧠 Quiz + Answer Key
-* 📥 Markdown version for GitHub
-* ⏭️ Next topic: *Use Pipes to Connect Commands*
-
-You’ve just unlocked the foundation of Linux automation, Shahid. Let’s keep going 🔁📁🧑‍💻
+- Linux allows **redirecting output and input** to and from files and commands.
+- Operators like `>`, `>>`, `<`, `2>`, and `2>&1` control **standard streams**.
+- These tools are powerful in **scripting**, **log handling**, and **incident response**.
+- Always test your redirection in scripts to avoid overwriting critical data.

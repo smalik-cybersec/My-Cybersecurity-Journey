@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **professional-grade quiz** for:
-
----
-
 # 🧠 **Quiz: Redirect Output to a File or Program**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -142,13 +138,3 @@ Write a one-liner command that:
 ```bash
 sort < users.txt > sorted.txt 2> error.log
 ```
-
----
-
-Would you like:
-
-* ✅ Quiz answer key
-* 📥 GitHub Markdown version
-* ⏭️ Proceed to: *Use Pipes to Connect Commands*?
-
-You're building solid automation and scripting muscles, Shahid — keep redirecting your way to mastery! 🧑‍💻🔁📂

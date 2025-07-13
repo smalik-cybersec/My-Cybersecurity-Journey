@@ -1,7 +1,3 @@
-Here is your complete, professional, and hands-on **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Gain Superuser Access**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -189,13 +185,3 @@ You now know how to:
 * Securely control system permissions without compromising auditability
 
 > Superuser access gives you **total control**—but must be used with caution to maintain **system integrity and security**.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown/PDF export for your GitHub
-* ⏭️ Next topic: *Manage File Permissions and Ownership*
-
-You're now wielding root access like a secure Linux professional, Shahid 🔐🧑‍💻 Let’s keep going!

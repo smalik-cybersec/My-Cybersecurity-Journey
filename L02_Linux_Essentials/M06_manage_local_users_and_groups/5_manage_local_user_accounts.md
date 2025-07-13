@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 👤 **Lesson: Manage Local User Accounts**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -35,13 +31,13 @@ In Linux, **local user accounts** are used to authenticate people who access the
 
 A local user account consists of:
 
-* A **username** (e.g., `shahid`)
-* A unique **UID**
-* A **home directory** (e.g., `/home/shahid`)
-* A **login shell** (e.g., `/bin/bash`)
-* A **password** (stored in hashed form)
-* A **primary group**
-* Optional **supplementary groups**
+- A **username** (e.g., `shahid`)
+- A unique **UID**
+- A **home directory** (e.g., `/home/shahid`)
+- A **login shell** (e.g., `/bin/bash`)
+- A **password** (stored in hashed form)
+- A **primary group**
+- Optional **supplementary groups**
 
 > Local users are created and managed **on that system only**, unlike LDAP or domain users.
 
@@ -135,18 +131,7 @@ sudo userdel -r analyst
 
 ## 📎 Summary
 
-* Linux stores all local user data in files like `/etc/passwd` and `/etc/shadow`.
-* You can manage users with tools like `useradd`, `usermod`, `userdel`, and `passwd`.
-* It’s critical to control **who can log in**, **how long**, and **under what permissions**.
-* Use account locking and password expiry to enhance security.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧪 Guided Lab: Create, lock, expire, and delete users
-* 🧠 Quiz with answers
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Manage Local Group Accounts*
-
-You're mastering access control, Shahid — a vital skill for secure Linux administration and cyber ops 🔐🧑‍💻
+- Linux stores all local user data in files like `/etc/passwd` and `/etc/shadow`.
+- You can manage users with tools like `useradd`, `usermod`, `userdel`, and `passwd`.
+- It’s critical to control **who can log in**, **how long**, and **under what permissions**.
+- Use account locking and password expiry to enhance security.

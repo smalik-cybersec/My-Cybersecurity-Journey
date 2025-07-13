@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🌍 **Lesson: Change the Shell Environment**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -18,11 +14,11 @@ Here is your complete, professional, and GitHub-friendly documentation for:
   - [🧬 Shell Environment Variables](#-shell-environment-variables)
   - [📦 Common Environment Variables](#-common-environment-variables)
   - [🔧 Modifying the Shell Environment](#-modifying-the-shell-environment)
-    - [🧪 View all current variables:](#-view-all-current-variables)
-    - [🧪 Set a temporary environment variable:](#-set-a-temporary-environment-variable)
-    - [🧪 Remove a variable:](#-remove-a-variable)
+    - [🧪 View all current variables](#-view-all-current-variables)
+    - [🧪 Set a temporary environment variable](#-set-a-temporary-environment-variable)
+    - [🧪 Remove a variable](#-remove-a-variable)
   - [🛠️ Persistent vs Temporary Changes](#️-persistent-vs-temporary-changes)
-    - [Example: Make `EDITOR=nano` persistent for the user:](#example-make-editornano-persistent-for-the-user)
+    - [Example: Make `EDITOR=nano` persistent for the user](#example-make-editornano-persistent-for-the-user)
   - [🧪 Practice Examples](#-practice-examples)
   - [🧠 Quiz Yourself](#-quiz-yourself)
   - [📎 Summary](#-summary)
@@ -49,10 +45,10 @@ The **shell environment** is a set of variables and settings that define how you
 
 Environment variables are key-value pairs that control:
 
-* User preferences
-* Command behavior
-* System paths
-* Shell appearance
+- User preferences
+- Command behavior
+- System paths
+- Shell appearance
 
 You can **view**, **create**, and **modify** them using:
 
@@ -80,7 +76,7 @@ unset VARIABLE
 
 ## 🔧 Modifying the Shell Environment
 
-### 🧪 View all current variables:
+### 🧪 View all current variables
 
 ```bash
 printenv
@@ -92,7 +88,7 @@ or
 env
 ```
 
-### 🧪 Set a temporary environment variable:
+### 🧪 Set a temporary environment variable
 
 ```bash
 export MYNAME=Shahid
@@ -101,7 +97,7 @@ echo $MYNAME
 
 ✅ This variable is active for the current shell session only.
 
-### 🧪 Remove a variable:
+### 🧪 Remove a variable
 
 ```bash
 unset MYNAME
@@ -116,7 +112,7 @@ unset MYNAME
 | Temporary   | Current session only   | `export NAME=value`                                |
 | Persistent  | Across logins/sessions | Edit `.bashrc`, `.bash_profile`, or `/etc/profile` |
 
-### Example: Make `EDITOR=nano` persistent for the user:
+### Example: Make `EDITOR=nano` persistent for the user
 
 ```bash
 echo "export EDITOR=nano" >> ~/.bashrc
@@ -156,19 +152,8 @@ source ~/.bashrc
 
 ## 📎 Summary
 
-* The **shell environment** defines your Linux session's behavior.
-* You can use `export`, `printenv`, `unset`, and `echo` to interact with environment variables.
-* Temporary changes affect the **current session only**.
-* Persistent changes require editing `.bashrc`, `.bash_profile`, or global system files.
-* Managing your shell environment is key to efficient, repeatable, and secure system usage.
-
----
-
-✅ Let me know if you want:
-
-* 📥 Markdown export for GitHub
-* 🧪 Guided Lab: Customizing the shell prompt and PATH
-* 🧠 Quiz with answers
-* ⏭️ Next topic: *Set Shell Aliases and Startup Files*
-
-You're learning to **bend the Linux shell to your will**, Shahid 🔧🐚 Keep customizing!
+- The **shell environment** defines your Linux session's behavior.
+- You can use `export`, `printenv`, `unset`, and `echo` to interact with environment variables.
+- Temporary changes affect the **current session only**.
+- Persistent changes require editing `.bashrc`, `.bash_profile`, or global system files.
+- Managing your shell environment is key to efficient, repeatable, and secure system usage.

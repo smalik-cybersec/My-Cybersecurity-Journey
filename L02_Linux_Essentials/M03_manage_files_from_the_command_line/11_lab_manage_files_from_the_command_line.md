@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your full, professional, step-by-step **lab exercise** for:
-
----
-
 # 🧪 **Lab: Manage Files from the Command Line**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -25,6 +21,7 @@ To gain hands-on experience with creating, viewing, copying, moving, renaming, a
    ```bash
    cd ~
    ```
+
 3. Create a new working directory:
 
    ```bash
@@ -166,13 +163,3 @@ Well done! You've now:
 * Used wildcards and brace expansion
 * Practiced file movement and cleanup
 * Built a foundation for automating file tasks in real-world systems
-
----
-
-Let me know if you'd like:
-
-* 📥 A downloadable Markdown/PDF version of this lab
-* 🧠 Quiz answer keys
-* ⏭️ Proceed to: *Use Input/Output Redirection and Pipes in Shell*
-
-You're sharpening your terminal skills like a pro, Shahid ⚙️📁 Keep dominating the CLI!

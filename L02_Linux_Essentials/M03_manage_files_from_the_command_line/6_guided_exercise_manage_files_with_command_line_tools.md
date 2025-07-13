@@ -1,7 +1,3 @@
-Here is your fully structured, hands-on **guided exercise** for:
-
----
-
 # 🎯 **Guided Exercise: Manage Files with Command-line Tools**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -25,6 +21,7 @@ By the end of this lab, you’ll be able to manipulate files like a pro from the
    ```bash
    cd ~
    ```
+
 3. Create a **dedicated lab folder**:
 
    ```bash
@@ -143,15 +140,3 @@ fileops_lab/
 2. Why do you need `-r` to copy or remove a directory?
 3. How can you ensure you don’t accidentally delete an important file?
 4. Which command can you use to copy everything inside a folder?
-
----
-
-## ✅ Lab Complete!
-
-Let me know if you’d like:
-
-* 📥 Downloadable version (Markdown or PDF)
-* 🧪 A real-world **cybersecurity task** using file commands (e.g., isolate malware, back up system configs)
-* ⏭️ Proceed to: *Lesson – Work with File Contents (cat, head, tail, etc.)*
-
-You're building muscle memory now, Shahid 💪📂 Keep going strong!

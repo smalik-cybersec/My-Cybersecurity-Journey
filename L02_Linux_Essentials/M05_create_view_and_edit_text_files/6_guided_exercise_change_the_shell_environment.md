@@ -1,7 +1,3 @@
-Here’s your complete, structured, and practical **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Change the Shell Environment**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -185,13 +181,3 @@ In this exercise, you’ve learned how to:
 * Make all of the above **persist** across sessions
 
 These are core skills for **secure scripting**, **automated workflows**, and **personalized administration**.
-
----
-
-✅ Let me know if you’d like:
-
-* 📥 Markdown export for GitHub
-* 🧠 Quiz based on this lab
-* ⏭️ Next lesson: *Set Shell Aliases and Startup Files*
-
-You're in full control of your shell environment now, Shahid — that’s the mark of a true Linux pro 🧑‍💻🔧🐚

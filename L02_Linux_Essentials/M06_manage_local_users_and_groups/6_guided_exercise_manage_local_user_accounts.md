@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your full, structured, and practical **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Manage Local User Accounts**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -210,13 +206,3 @@ You’ve now learned how to:
 * Control access lifecycles with locks and expirations
 * Modify user details using `usermod`, `chage`, `passwd`, and `userdel`
 * Protect your system using principle of least privilege and access expiry
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Manage Local Group Accounts*
-
-You're now fully in control of Linux user access, Shahid — a foundational cybersecurity skill 🔐💻 Keep pushing forward!

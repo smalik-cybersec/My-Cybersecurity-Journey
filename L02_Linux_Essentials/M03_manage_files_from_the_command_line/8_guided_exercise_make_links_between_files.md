@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your fully structured, hands-on **guided exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Make Links Between Files**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -168,13 +164,3 @@ ln -s source.txt symlink.txt       # Create symbolic link
 ls -li                             # Show inode numbers
 readlink symlink.txt               # Show symlink target
 ```
-
----
-
-✅ Let me know if you want:
-
-* 📥 Export this as a Markdown lab file
-* 🧠 Quiz answer key from the previous lesson
-* ⏭️ Next topic: *Use `vim` or `nano` to Edit Files*
-
-You’re mastering system-level file management like a pro, Shahid 🔧📁 Keep up the momentum!

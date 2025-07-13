@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your full, structured, and professional **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Manage Local Group Accounts**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -199,13 +195,3 @@ You’ve now learned how to:
 * Add and remove users from groups
 * Set group ownership on shared directories
 * Use groups to **enforce security policies** and **access control**
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown/PDF export for GitHub
-* ⏭️ Next lesson: *Manage File Permissions and Ownership*
-
-You're managing groups like a real Linux administrator, Shahid 🧑‍💻👥 Keep leveling up!

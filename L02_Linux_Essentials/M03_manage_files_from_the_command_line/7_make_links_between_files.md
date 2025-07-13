@@ -1,6 +1,3 @@
-Absolutely, Shahid! Here's your complete, professional-grade documentation for:
-
----
 
 # 🔗 **Lesson: Make Links Between Files**
 
@@ -16,15 +13,15 @@ Absolutely, Shahid! Here's your complete, professional-grade documentation for:
   - [🎯 What Are File Links?](#-what-are-file-links)
   - [🔗 Types of Links in Linux](#-types-of-links-in-linux)
   - [⚙️ How Hard Links Work](#️-how-hard-links-work)
-    - [Example:](#example)
+    - [Example](#example)
   - [🌐 How Symbolic (Soft) Links Work](#-how-symbolic-soft-links-work)
-    - [Example:](#example-1)
+    - [Example](#example-1)
   - [🧪 Practical Examples](#-practical-examples)
   - [🧠 Key Differences: Hard vs Symbolic Links](#-key-differences-hard-vs-symbolic-links)
   - [🔍 Checking Links](#-checking-links)
-    - [View all files with inode numbers:](#view-all-files-with-inode-numbers)
-    - [Identify symbolic links:](#identify-symbolic-links)
-    - [Verify link target:](#verify-link-target)
+    - [View all files with inode numbers](#view-all-files-with-inode-numbers)
+    - [Identify symbolic links](#identify-symbolic-links)
+    - [Verify link target](#verify-link-target)
   - [🧪 Lab Exercise](#-lab-exercise)
   - [🧠 Quiz Yourself](#-quiz-yourself)
   - [📎 Summary](#-summary)
@@ -50,15 +47,15 @@ In Linux, a **link** is a way to reference a file **from multiple locations**. I
 
 ## ⚙️ How Hard Links Work
 
-* **Point directly to the file’s inode** (metadata and content block).
-* The link **is indistinguishable** from the original file.
-* **If the original file is deleted, the hard link still works**.
+- **Point directly to the file’s inode** (metadata and content block).
+- The link **is indistinguishable** from the original file.
+- **If the original file is deleted, the hard link still works**.
 
 ```bash
 ln original.txt hardlink.txt
 ```
 
-### Example:
+### Example
 
 ```bash
 touch original.txt
@@ -72,15 +69,15 @@ ls -li
 
 ## 🌐 How Symbolic (Soft) Links Work
 
-* Points to the **path** of the original file.
-* If the original is deleted, the symlink becomes **broken**.
-* Works across filesystems and can link to directories too.
+- Points to the **path** of the original file.
+- If the original is deleted, the symlink becomes **broken**.
+- Works across filesystems and can link to directories too.
 
 ```bash
 ln -s original.txt symlink.txt
 ```
 
-### Example:
+### Example
 
 ```bash
 ln -s /etc/passwd my_passwd
@@ -121,13 +118,13 @@ ls -li
 
 ## 🔍 Checking Links
 
-### View all files with inode numbers:
+### View all files with inode numbers
 
 ```bash
 ls -li
 ```
 
-### Identify symbolic links:
+### Identify symbolic links
 
 ```bash
 ls -l
@@ -139,7 +136,7 @@ Symbolic links will appear like:
 soft_hello.txt -> hello.txt
 ```
 
-### Verify link target:
+### Verify link target
 
 ```bash
 readlink soft_hello.txt
@@ -194,18 +191,8 @@ cat file_soft.txt    # Should show broken link error
 
 ## 📎 Summary
 
-* Linux supports **two types of links**: hard and symbolic (soft).
-* Hard links are **indistinguishable from the original file** and survive deletion of the original.
-* Symbolic links are like **shortcuts** that break if the original is deleted.
-* Use `ln` for hard links and `ln -s` for symbolic links.
-* Links are essential in **system config, security audits, log redirection**, and **resource organization**.
-
----
-
-✅ Let me know if you'd like:
-
-* 📥 Markdown export or GitHub README version
-* 🧪 Quiz answer key or extended lab
-* ⏭️ Next topic: *Use `vim` or `nano` to Edit Files*
-
-You're progressing like a true Linux administrator, Shahid 🔗🐧 Keep linking it all together!
+- Linux supports **two types of links**: hard and symbolic (soft).
+- Hard links are **indistinguishable from the original file** and survive deletion of the original.
+- Symbolic links are like **shortcuts** that break if the original is deleted.
+- Use `ln` for hard links and `ln -s` for symbolic links.
+- Links are essential in **system config, security audits, log redirection**, and **resource organization**.

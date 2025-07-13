@@ -1,7 +1,3 @@
-Here is your complete, structured, and professional **lab guide** for:
-
----
-
 # 🧪 **Lab: Get Help in Red Hat Enterprise Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -175,13 +171,3 @@ sudo dnf install tldr
   * Work efficiently without Google
 
 > Mastering these help tools is a mark of a serious Linux or cybersecurity professional.
-
----
-
-✅ Would you like:
-
-* 🧠 Quiz based on this lab?
-* 📥 Markdown version for GitHub?
-* ⏭️ Proceed to: *File Permissions and Ownership in Linux*?
-
-You're not just using Linux, Shahid — you're commanding it with clarity 📘⚙️

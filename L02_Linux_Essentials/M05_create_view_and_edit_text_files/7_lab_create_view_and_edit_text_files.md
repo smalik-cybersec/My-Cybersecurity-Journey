@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, hands-on **lab guide** for:
-
----
-
 # 🧪 **Lab: Create, View, and Edit Text Files**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -95,6 +91,7 @@ Inside nano:
   Welcome, Shahid!
   You are mastering Linux text file management.
   ```
+
 * Save with `Ctrl + O`, press `Enter`
 * Exit with `Ctrl + X`
 
@@ -120,6 +117,7 @@ Inside `vim`:
   ```
   Edited with vim.
   ```
+
 * Press `Esc`, then type `:wq` to save and quit
 
 ✅ Confirm change:
@@ -209,13 +207,3 @@ In this lab, you’ve gained hands-on practice in:
 * Reading files using `cat`, `head`, `tail`, and `less`
 
 > This is foundational for working with **configs**, **logs**, **scripts**, and **incident data** — core skills in cybersecurity and Linux administration.
-
----
-
-✅ Would you like:
-
-* 📥 Export in Markdown for GitHub
-* 🧠 Quiz based on this lab
-* ⏭️ Next lesson: *Set Shell Aliases and Startup Files*
-
-You're not just reading Linux files now, Shahid — you're writing your own configuration future ✍️🐧

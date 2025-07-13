@@ -1,7 +1,3 @@
-Here is your complete, professional quiz for:
-
----
-
 # 🧠 **Quiz: Match File Names with Shell Expansions**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -136,13 +132,3 @@ Create 5 text files named `day1.txt` to `day5.txt` using a single command.
 ```bash
 touch day{1..5}.txt
 ```
-
----
-
-Let me know if you'd like:
-
-* 📥 Answer key with explanations
-* 📄 Printable or GitHub-compatible Markdown version
-* ⏭️ Next lesson: *Redirect Output and Use Pipes*
-
-You're mastering shell power, Shahid! ⚡🐚

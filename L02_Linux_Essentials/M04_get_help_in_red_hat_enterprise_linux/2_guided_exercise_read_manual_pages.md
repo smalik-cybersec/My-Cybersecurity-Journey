@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, structured, hands-on **guided exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Read Manual Pages**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -151,13 +147,3 @@ You now know how to:
 * Understand what options, arguments, and config files do
 * Use section numbers to get the right documentation
 * Use `man` as your **first resource** when learning or troubleshooting
-
----
-
-✅ Would you like:
-
-* 🧠 Answer key for the reflection quiz
-* 📥 Markdown export of this lab
-* ⏭️ Next topic: *Use `--help`, `whatis`, `info`, and `apropos`*
-
-You’re now reading Linux like it was meant to be read — straight from the source. Great work, Shahid! 🧠📘🐧
