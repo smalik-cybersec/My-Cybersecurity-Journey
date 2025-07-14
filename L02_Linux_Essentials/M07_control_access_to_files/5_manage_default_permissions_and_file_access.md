@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🛡️ **Lesson: Manage Default Permissions and File Access**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -40,8 +36,8 @@ Every time a new **file or directory** is created in Linux, it starts with a set
 
 By default:
 
-* **Files** can have a maximum of `666` (rw-rw-rw-) permissions
-* **Directories** can have a maximum of `777` (rwxrwxrwx) permissions
+- **Files** can have a maximum of `666` (rw-rw-rw-) permissions
+- **Directories** can have a maximum of `777` (rwxrwxrwx) permissions
 
 But these defaults are **filtered** through the **umask**, which subtracts permissions.
 
@@ -59,10 +55,10 @@ The `umask` is a **4-digit octal number** (typically `0022`, `0002`, or `0077`) 
 
 Example:
 
-* `umask 0022`
+- `umask 0022`
 
-  * New files: `644` (rw-r--r--)
-  * New dirs: `755` (rwxr-xr-x)
+  - New files: `644` (rw-r--r--)
+  - New dirs: `755` (rwxr-xr-x)
 
 ---
 
@@ -101,8 +97,8 @@ umask 0077
 
 Effect:
 
-* New files: `600`
-* New dirs: `700` (owner-only access)
+- New files: `600`
+- New dirs: `700` (owner-only access)
 
 ### 🔹 Make umask Persistent
 
@@ -166,19 +162,8 @@ ls -l
 
 ## 📎 Summary
 
-* **umask** controls default permissions for newly created files and directories
-* It **subtracts** permissions from a base value (`666` for files, `777` for directories)
-* You can view it with `umask` and set it temporarily or permanently
-* Lower umask = more permissions granted; higher umask = more restrictions
-* Managing `umask` is a best practice in **system hardening**, **compliance**, and **data confidentiality**
-
----
-
-✅ Let me know if you want:
-
-* 🧪 A guided lab on `umask` settings
-* 🧠 A quiz with answer key
-* 📥 Export in Markdown for GitHub
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You're mastering the default security behavior of Linux — excellent work, Shahid 🔐🧑‍💻
+- **umask** controls default permissions for newly created files and directories
+- It **subtracts** permissions from a base value (`666` for files, `777` for directories)
+- You can view it with `umask` and set it temporarily or permanently
+- Lower umask = more permissions granted; higher umask = more restrictions
+- Managing `umask` is a best practice in **system hardening**, **compliance**, and **data confidentiality**

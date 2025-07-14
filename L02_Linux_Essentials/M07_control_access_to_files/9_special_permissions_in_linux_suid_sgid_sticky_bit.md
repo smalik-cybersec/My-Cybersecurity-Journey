@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your complete, professional, and GitHub-ready documentation for:
-
----
-
 # 🛡️ **Lesson: Special Permissions in Linux (SUID, SGID, Sticky Bit)**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -16,11 +12,11 @@ Certainly, Shahid! Here's your complete, professional, and GitHub-ready document
   - [🎯 Introduction](#-introduction)
   - [🔐 What Are Special Permissions?](#-what-are-special-permissions)
   - [🔑 SUID (Set User ID)](#-suid-set-user-id)
-    - [🔍 Use Case:](#-use-case)
+    - [🔍 Use Case](#-use-case)
   - [👥 SGID (Set Group ID)](#-sgid-set-group-id)
-    - [🔍 Use Case:](#-use-case-1)
+    - [🔍 Use Case](#-use-case-1)
   - [📌 Sticky Bit](#-sticky-bit)
-    - [🔍 Use Case:](#-use-case-2)
+    - [🔍 Use Case](#-use-case-2)
   - [⚙️ Applying and Viewing Special Permissions](#️-applying-and-viewing-special-permissions)
     - [🛠️ Symbolic Mode](#️-symbolic-mode)
     - [🔢 Numeric Mode](#-numeric-mode)
@@ -35,9 +31,9 @@ Certainly, Shahid! Here's your complete, professional, and GitHub-ready document
 
 In addition to regular permissions (`r`, `w`, `x`), Linux provides **three special permission bits** to support advanced access control use cases:
 
-* **SUID (Set User ID)**
-* **SGID (Set Group ID)**
-* **Sticky Bit**
+- **SUID (Set User ID)**
+- **SGID (Set Group ID)**
+- **Sticky Bit**
 
 These permissions are particularly important for **secure script execution**, **collaborative directories**, and **file ownership control**.
 
@@ -55,13 +51,13 @@ These permissions are particularly important for **secure script execution**, **
 
 ## 🔑 SUID (Set User ID)
 
-* When a file with **SUID** is executed, it runs with the **file owner’s UID**, not the current user's.
-* Symbol: `s` in the **user execute** field (`-rwsr-xr-x`)
-* Numeric mode: Add `4` in front (e.g., `4755`)
+- When a file with **SUID** is executed, it runs with the **file owner’s UID**, not the current user's.
+- Symbol: `s` in the **user execute** field (`-rwsr-xr-x`)
+- Numeric mode: Add `4` in front (e.g., `4755`)
 
-### 🔍 Use Case:
+### 🔍 Use Case
 
-* `passwd` command (owned by root, run by regular users)
+- `passwd` command (owned by root, run by regular users)
 
 ```bash
 ls -l /usr/bin/passwd
@@ -72,27 +68,27 @@ ls -l /usr/bin/passwd
 
 ## 👥 SGID (Set Group ID)
 
-* On files: runs with the **file group’s GID**
-* On directories: files created inside inherit the **directory's group**
-* Symbol: `s` in the **group execute** field (`-rwxr-sr-x` or `drwxr-sr-x`)
-* Numeric mode: Add `2` in front (e.g., `2755`)
+- On files: runs with the **file group’s GID**
+- On directories: files created inside inherit the **directory's group**
+- Symbol: `s` in the **group execute** field (`-rwxr-sr-x` or `drwxr-sr-x`)
+- Numeric mode: Add `2` in front (e.g., `2755`)
 
-### 🔍 Use Case:
+### 🔍 Use Case
 
-* Shared project folders with consistent group ownership
+- Shared project folders with consistent group ownership
 
 ---
 
 ## 📌 Sticky Bit
 
-* Used only on **directories**
-* Allows only **file owners or root** to delete or rename files, even if others have write access
-* Symbol: `t` in the **others execute** field (`drwxrwxrwt`)
-* Numeric mode: Add `1` in front (e.g., `1777`)
+- Used only on **directories**
+- Allows only **file owners or root** to delete or rename files, even if others have write access
+- Symbol: `t` in the **others execute** field (`drwxrwxrwt`)
+- Numeric mode: Add `1` in front (e.g., `1777`)
 
-### 🔍 Use Case:
+### 🔍 Use Case
 
-* `/tmp` directory — world-writable but deletion restricted
+- `/tmp` directory — world-writable but deletion restricted
 
 ```bash
 ls -ld /tmp
@@ -165,17 +161,6 @@ sudo chmod 1777 /customtmp
 | **SGID**    | 2       | `g+s`    | Files/Dirs  | Run/inherit group          |
 | **Sticky**  | 1       | `+t`     | Directories | Only file owner can delete |
 
-* Use `chmod` to apply special bits (numeric or symbolic)
-* Use `ls -l` to view special permissions
-* Combine with normal `rwx` permissions to enforce advanced access rules
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 Guided Lab: Practice SUID, SGID, Sticky Bit
-* 🧠 Quiz with answers
-* 📥 Export in Markdown for GitHub
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Fine-Grained Permissions*
-
-You're entering the **advanced layer** of Linux file security, Shahid 🔐🧠 Keep building!
+- Use `chmod` to apply special bits (numeric or symbolic)
+- Use `ls -l` to view special permissions
+- Combine with normal `rwx` permissions to enforce advanced access rules

@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, professional, and GitHub-ready documentation for:
-
----
-
 # ⚙️ **Lesson: Process States and Lifecycle in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -16,7 +12,7 @@ Absolutely, Shahid! Here's your complete, professional, and GitHub-ready documen
   - [🎯 Introduction](#-introduction)
   - [🧠 What Is a Process?](#-what-is-a-process)
   - [🔄 Process Lifecycle Overview](#-process-lifecycle-overview)
-    - [Typical Lifecycle:](#typical-lifecycle)
+    - [Typical Lifecycle](#typical-lifecycle)
   - [📊 Process States Explained](#-process-states-explained)
   - [🔍 Viewing Process States](#-viewing-process-states)
     - [🔸 `ps` command](#-ps-command)
@@ -39,18 +35,18 @@ A **process** is an instance of a running program. In Linux, every action (start
 
 Understanding the **lifecycle and states** of a process is essential for:
 
-* System monitoring
-* Performance tuning
-* Debugging and troubleshooting
-* Incident response
+- System monitoring
+- Performance tuning
+- Debugging and troubleshooting
+- Incident response
 
 ---
 
 ## 🧠 What Is a Process?
 
-* Each process has a **PID (Process ID)**
-* Processes are managed by the **kernel**
-* They consume resources like **CPU**, **RAM**, and **I/O**
+- Each process has a **PID (Process ID)**
+- Processes are managed by the **kernel**
+- They consume resources like **CPU**, **RAM**, and **I/O**
 
 Created using system calls like `fork()`, `exec()`, or tools like `bash`, `cron`, `init`, etc.
 
@@ -66,7 +62,7 @@ Created using system calls like `fork()`, `exec()`, or tools like `bash`, `cron`
    Terminated
 ```
 
-### Typical Lifecycle:
+### Typical Lifecycle
 
 1. **Created** — A program is loaded into memory (via fork/exec)
 2. **Running** — Executing on CPU
@@ -179,19 +175,8 @@ ps -eo pid,ppid,stat,cmd | grep Z
 
 ## 📎 Summary
 
-* Every Linux process has a **lifecycle and state** controlled by the kernel
-* Important states include: **Running**, **Sleeping**, **Zombie**, **Stopped**, and more
-* Use tools like `ps`, `top`, and `htop` to inspect and analyze process states
-* **Zombie** processes occur when the parent fails to clean up its child
-* Orphaned processes are safely handled by the `init` process (PID 1)
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 A guided lab to practice analyzing and managing process states
-* 🧠 A quiz with answer key
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Manage Processes Using System Monitoring Tools*
-
-You're now mastering the life and death of Linux processes, Shahid ⚙️🧠 Excellent work!
+- Every Linux process has a **lifecycle and state** controlled by the kernel
+- Important states include: **Running**, **Sleeping**, **Zombie**, **Stopped**, and more
+- Use tools like `ps`, `top`, and `htop` to inspect and analyze process states
+- **Zombie** processes occur when the parent fails to clean up its child
+- Orphaned processes are safely handled by the `init` process (PID 1)

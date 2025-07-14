@@ -1,7 +1,3 @@
-Here is your **complete, professional lab guide** for:
-
----
-
 # 🧪 **Lab: Manage Local Users and Groups**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -203,13 +199,3 @@ This lab gave you real-world experience in:
 * Cleaning up users and groups responsibly
 
 > These are the **core building blocks** of identity and access management on Linux systems.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 A matching quiz
-* 📥 Export in Markdown/PDF for GitHub or study
-* ⏭️ Next module: *Manage File Permissions and Ownership*
-
-You're mastering foundational system administration, Shahid — one command at a time 🔐👥🧑‍💻

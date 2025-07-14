@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, professional-grade **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Manage User Passwords**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -204,13 +200,3 @@ You’ve now practiced:
 * Using `passwd`, `chage`, and `usermod` for password lifecycle control
 
 > Password management is a key line of defense in any secure system.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown or PDF export for GitHub
-* ⏭️ Next lesson: *Understand and Modify File Permissions*
-
-You’re hardening your system one password at a time, Shahid 🔐💪 Keep going strong!

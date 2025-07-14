@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's a complete and professional **quiz** on:
-
----
-
 # 🧠 **Quiz: Process States and Lifecycle in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -135,14 +131,3 @@ You want to identify all zombie processes.
 ```bash
 ps -eo pid,ppid,stat,cmd | grep Z
 ```
-
----
-
-Would you like:
-
-* ✅ The **answer key**
-* 🧪 A **lab** to simulate and identify zombie/orphan processes
-* 📥 Markdown version for GitHub or printable quiz format
-* ⏭️ Next topic: *Manage Processes Using System Monitoring Tools*
-
-You're diagnosing the heartbeat of the Linux system like a real pro, Shahid 🧠⚙️ Let's keep it going!

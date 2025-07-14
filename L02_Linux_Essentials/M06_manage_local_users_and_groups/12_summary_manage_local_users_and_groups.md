@@ -1,7 +1,3 @@
-Here is your clean, structured, and GitHub-ready **Summary** for:
-
----
-
 # 📎 **Summary: Manage Local Users and Groups**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -89,13 +85,3 @@ In Linux, **local users and groups** are essential components of the system’s 
 
 > **"A secure Linux system starts with secure identity and access management."**
 > Local users and groups form the **foundation** of all permissions and privilege controls. This lesson gave you the tools to structure users and groups in a way that is **secure**, **scalable**, and **compliant**.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz or practice worksheet
-* 📥 Markdown version for GitHub portfolio
-* ⏭️ Next topic: *Understand and Modify File Permissions and Ownership*
-
-You're now confidently managing Linux users and groups, Shahid — the backbone of secure systems 👤👥🔐

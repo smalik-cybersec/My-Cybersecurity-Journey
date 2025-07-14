@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your clean, structured, and GitHub-friendly **summary** for:
-
----
-
 # 📎 **Summary: Control Access to Files**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -103,13 +99,3 @@ Permission types:
 * **Unauthorized viewing**
 * **Accidental overwriting**
 * **Privilege escalation**
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz based on this summary
-* 📥 Export in Markdown or PDF
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You now have the power to control **who can do what** with every file and folder on your Linux system, Shahid 🔐🧑‍💻 Keep going!

@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **professional, structured quiz** for:
-
----
-
 # 🧠 **Quiz: Interpret Linux File System Permissions**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -140,14 +136,3 @@ Write the numeric and symbolic commands:
 chmod 600 secret.sh        # Numeric
 chmod u=rw,go= secret.sh   # Symbolic
 ```
-
----
-
-Would you like:
-
-* ✅ Answer key
-* 📥 Export in Markdown
-* 🧪 Practice lab on `chmod`, `ls -l`, and octal modes?
-* ⏭️ Next lesson: *Modify File Permissions Using chmod*
-
-You're building a rock-solid foundation in Linux security, Shahid 🔐📁 Keep leveling up!

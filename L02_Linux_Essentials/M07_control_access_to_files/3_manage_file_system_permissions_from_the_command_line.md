@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🔐 **Lesson: Manage File System Permissions from the Command Line**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -21,7 +17,7 @@ Here is your complete, professional, and GitHub-friendly documentation for:
   - [🧑 File Ownership: `chown` and `chgrp`](#-file-ownership-chown-and-chgrp)
     - [🔹 `chown` — Change file owner](#-chown--change-file-owner)
     - [🔹 `chgrp` — Change group ownership](#-chgrp--change-group-ownership)
-    - [Combine both:](#combine-both)
+    - [Combine both](#combine-both)
   - [🔢 Symbolic vs Numeric Mode](#-symbolic-vs-numeric-mode)
   - [🧪 Practical Command Examples](#-practical-command-examples)
   - [🚫 Common Mistakes to Avoid](#-common-mistakes-to-avoid)
@@ -42,15 +38,15 @@ Linux file systems use permission flags to **control who can access files and di
 
 Each file or directory has:
 
-* **User (u)** — owner
-* **Group (g)** — group owner
-* **Others (o)** — everyone else
+- **User (u)** — owner
+- **Group (g)** — group owner
+- **Others (o)** — everyone else
 
 Each of them can have:
 
-* **Read (r)** — view file or list directory
-* **Write (w)** — modify file or directory contents
-* **Execute (x)** — run script / enter directory
+- **Read (r)** — view file or list directory
+- **Write (w)** — modify file or directory contents
+- **Execute (x)** — run script / enter directory
 
 Example:
 
@@ -106,7 +102,7 @@ sudo chown root:root /etc/secure.conf
 sudo chgrp devteam shared.txt
 ```
 
-### Combine both:
+### Combine both
 
 ```bash
 sudo chown shahid:devteam project/
@@ -163,26 +159,14 @@ sudo chown shahid:students homework.txt
 1. What is the difference between `chmod` and `chown`?
 2. How would you make a file executable only by its owner?
 3. What does `chmod 644` mean in symbolic form?
-4. How do you recursively apply permissions to a directory?
 5. What command would you use to change both owner and group?
 
 ---
 
 ## 📎 Summary
 
-* Use `chmod` to change file permissions (symbolic or numeric)
-* Use `chown` to change the file owner and optionally the group
-* Use `chgrp` to change the group only
-* Understand numeric values (e.g., `755`, `644`) for quicker permission setting
-* Always review permissions with `ls -l` and apply least privilege
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 Guided Lab to practice `chmod`, `chown`, and `chgrp`
-* 🧠 Quiz with answers
-* 📥 Export as Markdown or PDF for GitHub portfolio
-* ⏭️ Next topic: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You’re now confidently controlling who can access what — a key cybersecurity and sysadmin skill, Shahid 🧑‍💻🔐
+- Use `chmod` to change file permissions (symbolic or numeric)
+- Use `chown` to change the file owner and optionally the group
+- Use `chgrp` to change the group only
+- Understand numeric values (e.g., `755`, `644`) for quicker permission setting
+- Always review permissions with `ls -l` and apply least privilege

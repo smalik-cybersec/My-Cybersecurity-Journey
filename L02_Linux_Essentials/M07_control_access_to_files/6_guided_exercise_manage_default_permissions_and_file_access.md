@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, structured, and hands-on **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Manage Default Permissions and File Access**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -216,13 +212,3 @@ You now know how to:
 * Persist umask changes for every session
 
 > This is a critical part of **proactive security** — ensuring files and directories start secure by default.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown version for GitHub
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You're now shaping Linux’s default behavior with confidence, Shahid 🧑‍💻🛡️ Keep going strong!

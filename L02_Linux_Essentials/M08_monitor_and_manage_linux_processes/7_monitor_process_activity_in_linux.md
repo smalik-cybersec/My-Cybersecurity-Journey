@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 📊 **Lesson: Monitor Process Activity in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -17,14 +13,14 @@ Certainly, Shahid! Here's your complete, professional, and GitHub-friendly docum
   - [🧠 Why Monitor Process Activity?](#-why-monitor-process-activity)
   - [📋 Tools to Monitor Processes](#-tools-to-monitor-processes)
   - [🔎 Using `ps` – Static Snapshot](#-using-ps--static-snapshot)
-    - [🔸 Basic Usage:](#-basic-usage)
-    - [🔸 View All Processes:](#-view-all-processes)
-    - [🔸 Custom Output:](#-custom-output)
+    - [🔸 Basic Usage](#-basic-usage)
+    - [🔸 View All Processes](#-view-all-processes)
+    - [🔸 Custom Output](#-custom-output)
   - [📈 Using `top` – Dynamic Monitor](#-using-top--dynamic-monitor)
-    - [Key Features:](#key-features)
-    - [Sample Output Columns:](#sample-output-columns)
+    - [Key Features](#key-features)
+    - [Sample Output Columns](#sample-output-columns)
   - [📊 Using `htop` – Enhanced Interactive Monitor](#-using-htop--enhanced-interactive-monitor)
-    - [Features Over `top`:](#features-over-top)
+    - [Features Over `top`](#features-over-top)
   - [🔍 Other Useful Tools](#-other-useful-tools)
   - [🧠 Quiz Yourself](#-quiz-yourself)
   - [📎 Summary](#-summary)
@@ -35,10 +31,10 @@ Certainly, Shahid! Here's your complete, professional, and GitHub-friendly docum
 
 Monitoring process activity is essential for:
 
-* Identifying CPU- or memory-intensive tasks
-* Investigating system slowness or bottlenecks
-* Troubleshooting stuck or zombie processes
-* Verifying the health of system and user services
+- Identifying CPU- or memory-intensive tasks
+- Investigating system slowness or bottlenecks
+- Troubleshooting stuck or zombie processes
+- Verifying the health of system and user services
 
 > Linux offers powerful tools like `ps`, `top`, and `htop` for **real-time and static monitoring**.
 
@@ -71,13 +67,13 @@ Monitoring process activity is essential for:
 
 The `ps` command captures a **one-time snapshot** of all running processes.
 
-### 🔸 Basic Usage:
+### 🔸 Basic Usage
 
 ```bash
 ps
 ```
 
-### 🔸 View All Processes:
+### 🔸 View All Processes
 
 ```bash
 ps aux
@@ -89,7 +85,7 @@ ps aux
 | `u`  | Show user/CPU/mem columns               |
 | `x`  | Show processes not attached to terminal |
 
-### 🔸 Custom Output:
+### 🔸 Custom Output
 
 ```bash
 ps -eo pid,ppid,stat,%cpu,%mem,cmd --sort=-%cpu
@@ -107,14 +103,14 @@ ps -eo pid,ppid,stat,%cpu,%mem,cmd --sort=-%cpu
 top
 ```
 
-### Key Features:
+### Key Features
 
-* Sort by CPU or memory
-* Press `k` to kill a process
-* Press `r` to renice (change priority)
-* Press `q` to quit
+- Sort by CPU or memory
+- Press `k` to kill a process
+- Press `r` to renice (change priority)
+- Press `q` to quit
 
-### Sample Output Columns:
+### Sample Output Columns
 
 | Column    | Description              |
 | --------- | ------------------------ |
@@ -134,13 +130,13 @@ top
 htop
 ```
 
-### Features Over `top`:
+### Features Over `top`
 
-* Color-coded bars
-* Scrollable interface
-* Use arrow keys to navigate
-* Press `F9` to kill a process
-* Press `F6` to sort columns
+- Color-coded bars
+- Scrollable interface
+- Use arrow keys to navigate
+- Press `F9` to kill a process
+- Press `F6` to sort columns
 
 ---
 
@@ -167,19 +163,8 @@ htop
 
 ## 📎 Summary
 
-* Use `ps` for **snapshot** process reporting
-* Use `top` or `htop` for **live system monitoring**
-* Monitor CPU, memory, and runtime usage for each process
-* Tools like `pgrep` and `pidof` help identify PIDs quickly
-* Mastering these tools is essential for performance tuning, process debugging, and operational visibility
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 A guided lab using `ps`, `top`, and `htop`
-* 🧠 Quiz with answers
-* 📥 Markdown export for GitHub
-* ⏭️ Next lesson: *Analyze and Manage System Logs*
-
-You're now watching over your Linux processes like a security analyst with a dashboard — excellent work, Shahid 👀⚙️
+- Use `ps` for **snapshot** process reporting
+- Use `top` or `htop` for **live system monitoring**
+- Monitor CPU, memory, and runtime usage for each process
+- Tools like `pgrep` and `pidof` help identify PIDs quickly
+- Mastering these tools is essential for performance tuning, process debugging, and operational visibility

@@ -1,7 +1,3 @@
-Certainly, Shahid! Here is your complete, professional, and GitHub-ready documentation for:
-
----
-
 # 📂 **Lesson: Interpret Linux File System Permissions**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -15,17 +11,17 @@ Certainly, Shahid! Here is your complete, professional, and GitHub-ready documen
   - [📚 Table of Contents](#-table-of-contents)
   - [🎯 Introduction](#-introduction)
   - [📁 What Are File System Permissions?](#-what-are-file-system-permissions)
-    - [Types of Permissions:](#types-of-permissions)
+    - [Types of Permissions](#types-of-permissions)
   - [🧑 User, Group, and Others](#-user-group-and-others)
   - [🔠 Understanding Permission Strings](#-understanding-permission-strings)
-    - [Breakdown of `-rwxr-xr--`:](#breakdown-of--rwxr-xr--)
+    - [Breakdown of `-rwxr-xr--`](#breakdown-of--rwxr-xr--)
   - [🔢 Numeric (Octal) Representation](#-numeric-octal-representation)
-    - [Examples:](#examples)
-    - [Putting it together:](#putting-it-together)
+    - [Examples](#examples)
+    - [Putting it together](#putting-it-together)
   - [🧪 Practical Examples](#-practical-examples)
-    - [View permissions:](#view-permissions)
-    - [Change permissions symbolically:](#change-permissions-symbolically)
-    - [Change permissions numerically:](#change-permissions-numerically)
+    - [View permissions](#view-permissions)
+    - [Change permissions symbolically](#change-permissions-symbolically)
+    - [Change permissions numerically](#change-permissions-numerically)
   - [🧠 Quiz Yourself](#-quiz-yourself)
   - [📎 Summary](#-summary)
 
@@ -43,7 +39,7 @@ Linux is a **multi-user operating system**, and permissions are the foundation o
 
 Each file or directory has three types of permissions, applied to three categories of users:
 
-### Types of Permissions:
+### Types of Permissions
 
 | Symbol | Permission | Description                     |
 | ------ | ---------- | ------------------------------- |
@@ -57,9 +53,9 @@ Each file or directory has three types of permissions, applied to three categori
 
 Every file and directory is owned by:
 
-* **User (u):** the file owner
-* **Group (g):** a group associated with the file
-* **Others (o):** everyone else on the system
+- **User (u):** the file owner
+- **Group (g):** a group associated with the file
+- **Others (o):** everyone else on the system
 
 Permissions are defined separately for each of these.
 
@@ -79,7 +75,7 @@ You’ll see output like:
 -rwxr-xr-- 1 shahid devteam 1452 Jul 10 11:42 script.sh
 ```
 
-### Breakdown of `-rwxr-xr--`:
+### Breakdown of `-rwxr-xr--`
 
 | Position | Meaning                                     |
 | -------- | ------------------------------------------- |
@@ -90,9 +86,9 @@ You’ll see output like:
 
 So `-rwxr-xr--` means:
 
-* User (shahid) can read, write, and execute
-* Group (devteam) can read and execute
-* Others can only read
+- User (shahid) can read, write, and execute
+- Group (devteam) can read and execute
+- Others can only read
 
 ---
 
@@ -106,7 +102,7 @@ Each permission triplet can be represented as a **number**:
 | `w`        | 2      | 010   |
 | `x`        | 1      | 001   |
 
-### Examples:
+### Examples
 
 | Symbolic | Octal | Meaning                |
 | -------- | ----- | ---------------------- |
@@ -115,7 +111,7 @@ Each permission triplet can be represented as a **number**:
 | `rwx`    | 7     | read + write + execute |
 | `r-x`    | 5     | read + execute         |
 
-### Putting it together:
+### Putting it together
 
 ```bash
 chmod 754 file.txt
@@ -123,21 +119,21 @@ chmod 754 file.txt
 
 Means:
 
-* User: `7` → rwx
-* Group: `5` → r-x
-* Others: `4` → r--
+- User: `7` → rwx
+- Group: `5` → r-x
+- Others: `4` → r--
 
 ---
 
 ## 🧪 Practical Examples
 
-### View permissions:
+### View permissions
 
 ```bash
 ls -l
 ```
 
-### Change permissions symbolically:
+### Change permissions symbolically
 
 ```bash
 chmod u+x script.sh       # Add execute for user
@@ -145,7 +141,7 @@ chmod g-w file.txt        # Remove write for group
 chmod o= file.txt         # Remove all for others
 ```
 
-### Change permissions numerically:
+### Change permissions numerically
 
 ```bash
 chmod 644 notes.txt       # rw-r--r--
@@ -167,19 +163,8 @@ chmod 700 private.txt     # rwx------
 
 ## 📎 Summary
 
-* Linux permissions consist of **read (r), write (w), and execute (x)**
-* Permissions apply to **user**, **group**, and **others**
-* You can represent permissions in **symbolic or numeric (octal)** form
-* Use `ls -l` to view, and `chmod` to change permissions
-* Understanding permissions helps you **secure files, scripts, and services**
-
----
-
-✅ Let me know if you’d like:
-
-* 🧪 Guided lab to practice interpreting and changing permissions
-* 🧠 Quiz with answers
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Modify File Permissions Using chmod*
-
-You're reading Linux file permissions like a cybersecurity analyst now, Shahid 📂🔐 Keep owning it!
+- Linux permissions consist of **read (r), write (w), and execute (x)**
+- Permissions apply to **user**, **group**, and **others**
+- You can represent permissions in **symbolic or numeric (octal)** form
+- Use `ls -l` to view, and `chmod` to change permissions
+- Understanding permissions helps you **secure files, scripts, and services**

@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your professional, GitHub-friendly, and hands-on **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Kill Processes in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -213,13 +209,3 @@ You now know how to:
 * Apply process control in both terminal and GUI environments
 
 > These tools give you precise control over your Linux system — essential for managing rogue apps, resource issues, and runtime debugging.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz based on this lab
-* 📥 Markdown version for GitHub
-* ⏭️ Next topic: *Monitor Processes Using top and ps*
-
-You’re now eliminating rogue processes like a skilled Linux sysadmin, Shahid 💻⚡ Keep dominating the shell!

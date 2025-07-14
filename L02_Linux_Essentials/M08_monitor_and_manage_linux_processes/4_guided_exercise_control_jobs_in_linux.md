@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your fully structured, hands-on, and GitHub-friendly **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Control Jobs in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -214,13 +210,3 @@ You’ve now practiced:
 * Making processes persistent even after terminal closes
 
 > This skill is essential for **working with long-running tasks**, **multitasking in the shell**, and **session control** as a Linux user or admin.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧠 A quiz based on this exercise
-* 📥 Markdown export for GitHub
-* ⏭️ Next lesson: *Schedule Tasks Using `at` and `cron`*
-
-You’re now confidently multitasking and managing live jobs like a Linux pro, Shahid 💪🖥️ Keep it up!

@@ -1,7 +1,3 @@
-Here is your complete, professional, and GitHub-ready documentation for:
-
----
-
 # 🧩 **Lesson: Control Jobs in Linux (Foreground, Background, and Job Management)**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -44,9 +40,9 @@ A **job** in Linux refers to a **process started from the shell**. You can manag
 
 Each job:
 
-* Has a **job ID** (shown with `%`)
-* May have an associated **process ID (PID)**
-* Can be suspended, resumed, or terminated
+- Has a **job ID** (shown with `%`)
+- May have an associated **process ID (PID)**
+- Can be suspended, resumed, or terminated
 
 ---
 
@@ -164,19 +160,8 @@ kill %1
 
 ## 📎 Summary
 
-* Linux lets you run, suspend, and resume jobs directly from the terminal
-* Use `&` to run a job in the background, `Ctrl+Z` to suspend, `bg`/`fg` to resume
-* Each job has a `%` job ID, and can be viewed with `jobs`
-* Use `kill` to terminate jobs and `disown` to detach them from the shell
-* Job control is crucial for multitasking and session management in user shells
-
----
-
-✅ Let me know if you’d like:
-
-* 🧪 Guided lab to practice job control
-* 🧠 Quiz with answer key
-* 📥 Export in Markdown for GitHub
-* ⏭️ Next topic: *Schedule Tasks Using at and cron*
-
-You're now managing jobs in Linux like a multitasking terminal warrior, Shahid ⚙️📟 Let’s keep going!
+- Linux lets you run, suspend, and resume jobs directly from the terminal
+- Use `&` to run a job in the background, `Ctrl+Z` to suspend, `bg`/`fg` to resume
+- Each job has a `%` job ID, and can be viewed with `jobs`
+- Use `kill` to terminate jobs and `disown` to detach them from the shell
+- Job control is crucial for multitasking and session management in user shells

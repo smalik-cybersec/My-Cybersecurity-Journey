@@ -1,7 +1,3 @@
-Here is your complete, structured, and GitHub-ready **Lab Guide** for:
-
----
-
 # 🧪 **Lab: Control Access to Files**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -198,13 +194,3 @@ You now have practical experience with:
 * Applying different permission schemes for private, shared, and public content
 
 > This lab teaches you to **proactively control file access**, minimizing security risks and enabling proper collaboration in multi-user environments.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 A quiz based on this lab
-* 📥 Markdown export for GitHub
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You're mastering Linux file access like a cybersecurity pro, Shahid 🔐📂 Keep it up!

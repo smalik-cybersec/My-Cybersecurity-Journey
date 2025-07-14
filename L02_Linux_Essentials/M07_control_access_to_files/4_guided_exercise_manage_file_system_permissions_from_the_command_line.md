@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, hands-on **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Manage File System Permissions from the Command Line**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -187,13 +183,3 @@ You now know how to:
 * Set up secure file environments using the command line
 
 > This lab strengthens your ability to **enforce access control** and **lock down sensitive data** — a critical Linux admin and cybersecurity skill.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 A quiz based on this lab
-* 📥 Markdown/PDF version for GitHub
-* ⏭️ Next lesson: *Use Access Control Lists (ACLs) for Advanced Permissions*
-
-You’re managing file system security like a true professional, Shahid 🔐📁🧑‍💻 Keep going!
