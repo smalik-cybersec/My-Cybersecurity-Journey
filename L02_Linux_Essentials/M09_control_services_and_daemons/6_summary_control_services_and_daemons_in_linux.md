@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your clean, professional, and GitHub-ready **summary** for:
-
----
-
 # 📎 **Summary: Control Services and Daemons in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -87,13 +83,3 @@ Modern Linux systems use **`systemd`** to manage services through **unit files**
 * ✅ Control your system's behavior with confidence
 
 ---
-
-## 📥 For GitHub or Portfolio?
-
-Let me know — I’ll export this as a Markdown document with styling and structure ideal for your GitHub repo or cybersecurity resume folder.
-
----
-
-⏭️ **Next Topic:** *System Logging and Journal Analysis*
-
-You now control the heartbeat of your Linux system—its services and daemons. Excellent work, Shahid 🧠⚙️🔥 Let’s continue!

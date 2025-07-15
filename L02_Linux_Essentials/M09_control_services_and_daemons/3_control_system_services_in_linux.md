@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, professional, and GitHub-friendly documentation for:
-
----
-
 # 🛠️ **Lesson: Control System Services in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -49,9 +45,9 @@ Using **`systemctl`**, you can **start, stop, enable, disable, reload, and resta
 
 Service files are usually found in:
 
-* `/etc/systemd/system/`
-* `/lib/systemd/system/`
-* `/usr/lib/systemd/system/`
+- `/etc/systemd/system/`
+- `/lib/systemd/system/`
+- `/usr/lib/systemd/system/`
 
 ---
 
@@ -63,10 +59,10 @@ Example: `/lib/systemd/system/sshd.service`
 
 A service unit file may define:
 
-* Description
-* ExecStart, ExecReload, ExecStop
-* Restart policy
-* Dependencies
+- Description
+- ExecStart, ExecReload, ExecStop
+- Restart policy
+- Dependencies
 
 ---
 
@@ -147,10 +143,10 @@ sudo systemctl mask telnet.socket
 
 ## 📎 Summary
 
-* Linux uses `systemd` to control system services (daemons)
-* Each service is managed via a `.service` unit file
-* Use `systemctl` to **start, stop, restart, enable, disable, mask**, and **query** services
-* Mastering service control improves **availability**, **security**, and **boot management**
+- Linux uses `systemd` to control system services (daemons)
+- Each service is managed via a `.service` unit file
+- Use `systemctl` to **start, stop, restart, enable, disable, mask**, and **query** services
+- Mastering service control improves **availability**, **security**, and **boot management**
 
 ---
 
@@ -167,14 +163,3 @@ systemctl unmask <service>
 systemctl status <service>
 systemctl is-enabled <service>
 ```
-
----
-
-✅ Let me know if you’d like:
-
-* 🧪 Guided Exercise to practice controlling services
-* 🧠 Quiz with answers
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Lab: Manage System Services with systemctl*
-
-You’re now in command of every service your system runs — a vital Linux skill, Shahid 🚀🧠 Keep going strong!

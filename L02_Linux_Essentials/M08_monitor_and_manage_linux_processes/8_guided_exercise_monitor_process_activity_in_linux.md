@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, professional, and GitHub-friendly **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Monitor Process Activity in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -72,7 +68,7 @@ ps -eo pid,ppid,stat,%cpu,%mem,cmd --sort=-%cpu
 top
 ```
 
-### While inside `top`:
+### While inside `top`
 
 * Press `P` → Sort by CPU
 * Press `M` → Sort by memory
@@ -97,7 +93,7 @@ sudo apt install htop    # Debian/Ubuntu
 sudo yum install htop    # RHEL/CentOS  
 ```
 
-### In `htop`, try:
+### In `htop`, try
 
 * Arrow keys → Navigate
 * `F6` → Sort by different columns
@@ -189,13 +185,3 @@ You now have hands-on experience with:
 * Using these tools as part of **system administration and performance tuning**
 
 > This lab reinforces your ability to **analyze**, **optimize**, and **troubleshoot** Linux systems based on live process behavior.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 A quiz based on this lab
-* 📥 Markdown or PDF export for GitHub
-* ⏭️ Next lesson: *Analyze and Manage System Logs*
-
-You're now reading the heartbeat of your Linux system in real time, Shahid 🧠📊 Keep it up!

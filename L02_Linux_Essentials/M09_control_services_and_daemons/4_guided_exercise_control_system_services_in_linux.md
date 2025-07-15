@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, hands-on, GitHub-friendly **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Control System Services in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -181,13 +177,3 @@ By completing this lab, you now have hands-on experience with:
 * Auditing service logs and statuses
 
 > This is a **core competency** in Linux system administration and service hardening.
-
----
-
-✅ Let me know if you'd like:
-
-* 🧠 Quiz on controlling system services
-* 📥 Markdown version for GitHub
-* ⏭️ Next lab: *Manage System Services and Targets at Boot*
-
-You're now confidently running the command center for Linux services, Shahid 🔧🖥️ Let's continue strong!

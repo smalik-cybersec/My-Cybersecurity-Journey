@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your clean, professional, and GitHub-friendly **summary** for:
-
----
-
 # 📎 **Summary: Monitor and Manage Linux Processes**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -99,14 +95,3 @@ A **process** is an instance of a running program, managed by the Linux kernel. 
 > ✅ **Pro Tip:** Always try `kill -15` (graceful) before using `kill -9` (force).
 
 ---
-
-## 📥 Want This for GitHub?
-
-Let me know — I’ll export this in **Markdown** format, perfectly styled for your GitHub portfolio.
-
----
-
-📚 Ready for the next topic?
-⏭️ *Analyze and Manage System Logs*
-
-You now have complete command over Linux processes — like a performance-tuning, troubleshooting, resource-optimizing pro, Shahid 🔍⚙️🔥 Keep dominating!

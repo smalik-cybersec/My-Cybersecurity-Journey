@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your complete, GitHub-friendly **Guided Exercise** for:
-
----
-
 # 🧪 **Guided Exercise: Identify Automatically Started System Processes**
 
 > *Linux Essentials – Red Hat System Administration*

@@ -1,7 +1,3 @@
-Here is your complete, structured, and GitHub-ready **Lab Guide** for:
-
----
-
 # 🧪 **Lab: Monitor and Manage Linux Processes**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -112,31 +108,31 @@ In `htop`:
 
 ### 🔹 **Step 5: Pause, Resume, and Kill Jobs**
 
-#### Suspend a job (foreground process):
+#### Suspend a job (foreground process)
 
 ```bash
 Ctrl + Z
 ```
 
-#### Resume job in background:
+#### Resume job in background
 
 ```bash
 bg %1
 ```
 
-#### Resume job in foreground:
+#### Resume job in foreground
 
 ```bash
 fg %1
 ```
 
-#### Kill a process by PID:
+#### Kill a process by PID
 
 ```bash
 kill -9 <PID>
 ```
 
-#### Kill all `sleep` processes:
+#### Kill all `sleep` processes
 
 ```bash
 pkill sleep
@@ -212,13 +208,3 @@ You now know how to:
 * Use both command-line and interactive tools (`top`, `htop`, `ps`, `kill`, etc.)
 
 > This lab strengthens your command over the **Linux process management toolkit** — a critical skill for performance tuning, system recovery, and admin excellence.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧠 A quiz to test mastery of process monitoring and control
-* 📥 Markdown/PDF export for GitHub
-* ⏭️ Next lesson: *Analyze and Manage System Logs*
-
-You're managing Linux processes like a true professional now, Shahid ⚙️🧠 Keep going strong!

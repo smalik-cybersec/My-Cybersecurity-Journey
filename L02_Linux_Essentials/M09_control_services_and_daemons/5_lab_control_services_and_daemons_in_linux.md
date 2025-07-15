@@ -1,7 +1,3 @@
-Certainly, Shahid! Here's your complete, professional, and GitHub-ready **Lab Guide** for:
-
----
-
 # 🧪 **Lab: Control Services and Daemons in Linux**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -195,13 +191,3 @@ You now know how to:
 * Identify performance bottlenecks caused by services
 
 > These are critical administration tasks in **cybersecurity**, **hardening**, and **performance tuning**.
-
----
-
-✅ Let me know if you’d like:
-
-* 🧠 Quiz on service/daemon management
-* 📥 Markdown export for GitHub
-* ⏭️ Next module: *System Logging and Journal Analysis*
-
-You're now in full control of what your system runs behind the scenes — great work, Shahid 🔧📡 Let’s keep going!

@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your complete, structured, and GitHub-ready documentation for:
-
----
-
 # 🖥️ **Lesson: Identify Automatically Started System Processes**
 
 > *Linux Essentials – Red Hat System Administration*
@@ -16,7 +12,7 @@ Absolutely, Shahid! Here's your complete, structured, and GitHub-ready documenta
   - [🎯 Introduction](#-introduction)
   - [🔄 What Are Automatically Started Processes?](#-what-are-automatically-started-processes)
   - [🧠 System Boot and Process Initialization](#-system-boot-and-process-initialization)
-    - [Boot Sequence Overview:](#boot-sequence-overview)
+    - [Boot Sequence Overview](#boot-sequence-overview)
   - [🔧 Understanding `systemd` and Services](#-understanding-systemd-and-services)
   - [🛠️ Tools to List Auto-Started Processes](#️-tools-to-list-auto-started-processes)
     - [🔹 1. View All Running Services](#-1-view-all-running-services)
@@ -36,10 +32,10 @@ Absolutely, Shahid! Here's your complete, structured, and GitHub-ready documenta
 
 When a Linux system boots, a set of **system processes and services** are started **automatically**. These include essential background services like:
 
-* `sshd` for remote access
-* `cron` for scheduled tasks
-* `networking` for interfaces
-* Logging daemons and more
+- `sshd` for remote access
+- `cron` for scheduled tasks
+- `networking` for interfaces
+- Logging daemons and more
 
 Understanding these **auto-started processes** is essential for **security, performance, and system hardening**.
 
@@ -49,16 +45,16 @@ Understanding these **auto-started processes** is essential for **security, perf
 
 These are:
 
-* **System-level daemons and services**
-* Started by the **init system** (usually `systemd`)
-* Can be managed using service management tools
-* Often run with **root privileges**
+- **System-level daemons and services**
+- Started by the **init system** (usually `systemd`)
+- Can be managed using service management tools
+- Often run with **root privileges**
 
 ---
 
 ## 🧠 System Boot and Process Initialization
 
-### Boot Sequence Overview:
+### Boot Sequence Overview
 
 1. **BIOS/UEFI** → Hardware POST
 2. **Bootloader (GRUB)** → Loads kernel
@@ -176,10 +172,10 @@ systemd-analyze blame
 
 ## 📎 Summary
 
-* Auto-started processes are system services initialized during the boot process
-* **`systemd`** is the most common init system in modern Linux distributions
-* Use `systemctl` to list, inspect, and manage services
-* Knowing which services start by default helps with **system hardening**, **performance tuning**, and **debugging boot issues**
+- Auto-started processes are system services initialized during the boot process
+- **`systemd`** is the most common init system in modern Linux distributions
+- Use `systemctl` to list, inspect, and manage services
+- Knowing which services start by default helps with **system hardening**, **performance tuning**, and **debugging boot issues**
 
 ---
 
@@ -192,14 +188,3 @@ systemctl is-enabled <service-name>
 systemctl status <service-name>
 systemd-analyze blame
 ```
-
----
-
-✅ Let me know if you'd like:
-
-* 🧪 Guided Exercise on identifying and managing auto-started services
-* 🧠 A quiz with answers
-* 📥 Markdown export for GitHub
-* ⏭️ Next topic: *Analyze and Manage System Logs*
-
-You’re now equipped to audit, review, and secure your system’s startup processes, Shahid 🔐🖥️ Let’s keep going strong!
