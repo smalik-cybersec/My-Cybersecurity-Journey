@@ -1,14 +1,3 @@
-Great, Shahid.
-You're now moving into the **practical, hands-on** part of SSH:
-
-> **Guided Exercise:** Access the Remote Command Line
-> **Page Ref:** \~307
-> **Context:** This is meant to **practice** what you've just learned theoretically using SSH.
-
-Below is a **professional, structured, and GitHub-ready** version of the **guided exercise**, designed for real-world application, lab execution, and recruiter visibility.
-
----
-
 # 🧪 Guided Exercise: Access the Remote Command Line using SSH
 
 ## 🎯 Exercise Objective
@@ -152,6 +141,7 @@ ssh shahid@192.168.1.20 "uptime"
     ```ini
     PermitRootLogin no
     ```
+
   * Change default port:
 
     ```ini
@@ -212,6 +202,7 @@ ssh webserver
   chmod 600 ~/.ssh/id_rsa
   chmod 700 ~/.ssh
   ```
+
 * In cloud environments (like AWS), SSH access is often done using `.pem` files (we’ll cover this separately).
 
 ---
@@ -223,21 +214,3 @@ ssh webserver
 * What would happen if your private key is leaked?
 
 ---
-
-## 📂 GitHub Commit Tip
-
-Create a folder like:
-
-```
-/Remote-Access/SSH/
-    ├── README.md  ← this exercise as markdown
-    ├── ssh_config_example
-    ├── screenshots/
-```
-
-This makes your GitHub repo look professional and recruiter-friendly.
-
----
-
-Let me know if you want this exported as `.md`, `.pdf`, or both.
-Also ready for the **next topic** whenever you are.

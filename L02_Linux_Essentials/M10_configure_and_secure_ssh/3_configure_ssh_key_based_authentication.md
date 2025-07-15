@@ -1,16 +1,3 @@
-Perfect, Shahid.
-You’re now studying one of the **most secure and job-critical skills** for remote access:
-
-> **Lesson:** Configure SSH Key-based Authentication
-> **Page Ref:** \~311
-> **Context:** Deep-dive into replacing insecure password authentication with **cryptographic key pairs**, a best practice in DevOps, cloud, and cybersecurity.
-
----
-
-Below is the **professional, comprehensive, and GitHub-ready documentation** for this lesson.
-
----
-
 # 🔐 Configure SSH Key-Based Authentication
 
 ## 📌 Chapter Overview
@@ -55,8 +42,8 @@ SSH Key-Based Authentication replaces traditional password login with **public-p
 
 Instead of typing a password, the client proves its identity using a **cryptographic key pair**.
 
-* **Private Key** → Kept secret on the client machine
-* **Public Key** → Uploaded to the server (`authorized_keys`)
+- **Private Key** → Kept secret on the client machine
+- **Public Key** → Uploaded to the server (`authorized_keys`)
 
 ✅ Authentication happens automatically if the keys match.
 
@@ -94,15 +81,15 @@ Instead of typing a password, the client proves its identity using a **cryptogra
 ssh-keygen -t rsa -b 4096 -C "shahid@domain.com"
 ```
 
-* When prompted:
+- When prompted:
 
-  * **File location?** Press Enter to use default (`~/.ssh/id_rsa`)
-  * **Passphrase?** Optional (adds extra security)
+  - **File location?** Press Enter to use default (`~/.ssh/id_rsa`)
+  - **Passphrase?** Optional (adds extra security)
 
 **Result:**
 
-* `~/.ssh/id_rsa` → Your private key (keep safe!)
-* `~/.ssh/id_rsa.pub` → Your public key
+- `~/.ssh/id_rsa` → Your private key (keep safe!)
+- `~/.ssh/id_rsa.pub` → Your public key
 
 ---
 
@@ -114,7 +101,7 @@ ssh-keygen -t rsa -b 4096 -C "shahid@domain.com"
 ssh-copy-id shahid@192.168.1.100
 ```
 
-* This appends your public key to `~/.ssh/authorized_keys` on the server.
+- This appends your public key to `~/.ssh/authorized_keys` on the server.
 
 #### Option 2: Manual Method
 
@@ -196,15 +183,15 @@ sudo systemctl restart ssh
 
 ### 🔬 Lab 1: Generate and Deploy SSH Key Pair
 
-* Generate key on client
-* Use `ssh-copy-id` to upload
-* Verify login without password
+- Generate key on client
+- Use `ssh-copy-id` to upload
+- Verify login without password
 
 ### 🔬 Lab 2: Enforce Key-Only Authentication
 
-* Edit `sshd_config` on server
-* Disable password authentication
-* Restart SSH and test access
+- Edit `sshd_config` on server
+- Disable password authentication
+- Restart SSH and test access
 
 ### 🔬 Lab 3: SSH Profile in `.ssh/config`
 
@@ -258,11 +245,11 @@ ssh bastion
 
 ## 🎯 Real-World Security Applications
 
-* 🔐 **Cloud Infrastructure:** AWS EC2, Azure VMs use key-based login by default
-* ⚙️ **CI/CD pipelines:** Automate Git/GitHub/remote deployments securely
-* 🛡️ **Red Teaming:** Persist on compromised systems with dropped public keys
-* 🚫 **Root Hardening:** Allow admin login only via secured keys
-* 🔗 **SSH Tunnels:** Use keys to authenticate jump boxes / bastion hosts
+- 🔐 **Cloud Infrastructure:** AWS EC2, Azure VMs use key-based login by default
+- ⚙️ **CI/CD pipelines:** Automate Git/GitHub/remote deployments securely
+- 🛡️ **Red Teaming:** Persist on compromised systems with dropped public keys
+- 🚫 **Root Hardening:** Allow admin login only via secured keys
+- 🔗 **SSH Tunnels:** Use keys to authenticate jump boxes / bastion hosts
 
 ---
 
@@ -287,24 +274,14 @@ ssh bastion
 
 SSH key-based authentication is:
 
-* **Secure** (cryptographically stronger than passwords)
-* **Scriptable** (great for automation)
-* **Standard** for professionals
+- **Secure** (cryptographically stronger than passwords)
+- **Scriptable** (great for automation)
+- **Standard** for professionals
 
 As a cybersecurity practitioner, this skill will serve you in:
 
-* Cloud
-* Linux admin
-* Automation
-* DevSecOps
-* Pentesting
-
----
-
-Let me know if you'd like:
-
-* 📦 Export as `.md` or `.pdf`
-* 🧱 Mini-project (e.g. Build your own Bastion Host with SSH keys)
-* Next topic from the syllabus
-
-Ready for the next one when you are, Shahid.
+- Cloud
+- Linux admin
+- Automation
+- DevSecOps
+- Pentesting

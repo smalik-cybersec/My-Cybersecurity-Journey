@@ -1,14 +1,3 @@
-Great, Shahid!
-You're now diving into a **full-scale hands-on lab**—a culmination of everything you've practiced with SSH so far.
-
-> **Lab Name:** Configure and Secure SSH
-> **Page Ref:** \~331
-> **Goal:** Apply real-world hardening, configuration, and testing of OpenSSH in a structured lab format suitable for production and secure environments.
-
-Below is the **professional, recruiter-ready, and GitHub-compatible lab documentation** with detailed steps, checkpoints, and deliverables.
-
----
-
 # 🧪 Lab: Configure and Secure SSH (OpenSSH Hardening)
 
 ## 🎯 Objective
@@ -44,11 +33,13 @@ This lab simulates a **real-world Linux server hardening** task.
   ```bash
   sudo apt install openssh-server
   ```
+
 * SSH service running:
 
   ```bash
   sudo systemctl status ssh
   ```
+
 * At least one non-root sudo user on the server (`shahid`)
 
 ---
@@ -245,13 +236,3 @@ This lab gave you hands-on practice with:
 * Preventing brute-force and unauthorized access
 
 > 🔒 This is a **must-have skill** for roles in system administration, red teaming, DevSecOps, and cloud security.
-
----
-
-Would you like me to:
-
-* 📦 Export this as `.md` or `.pdf`?
-* 🎯 Create a **Red Team simulation** (e.g., failed brute-force via Hydra or Nmap detection)?
-* Move to the **next lesson or lab**?
-
-Ready when you are, Shahid!

@@ -1,14 +1,3 @@
-Perfect progression, Shahid.
-You’re now entering the **hands-on practical application** of the SSH Key-Based Authentication lesson:
-
-> **Guided Exercise:** Configure SSH Key-Based Authentication
-> **Page Ref:** \~317
-> **Context:** Practice generating, deploying, securing, and testing SSH keys in a real-world lab environment.
-
-Here’s your **professional, GitHub-ready Guided Exercise chapter**, formatted cleanly for real-world documentation, labs, or a recruiter-facing project repo.
-
----
-
 # 🧪 Guided Exercise: Configure SSH Key-Based Authentication
 
 ## 🎯 Objective
@@ -108,7 +97,7 @@ ssh shahid@192.168.1.20
 
 > ⚠️ **Only do this once key-based login is fully working.**
 
-#### Edit the SSH daemon configuration:
+#### Edit the SSH daemon configuration
 
 ```bash
 sudo nano /etc/ssh/sshd_config
@@ -122,7 +111,7 @@ PubkeyAuthentication yes
 PermitRootLogin no
 ```
 
-#### Restart SSH to apply changes:
+#### Restart SSH to apply changes
 
 ```bash
 sudo systemctl restart ssh
@@ -194,13 +183,3 @@ This exercise taught you how to:
 * Lock down remote access using cryptographic credentials
 
 > 🔐 This is **standard practice** in DevOps, cloud engineering, ethical hacking, and system administration.
-
----
-
-Would you like me to:
-
-* Export this as `.md` for your GitHub repo?
-* Create a **real-world task challenge** (e.g., “Automate secure backup over SSH”)?
-* Move on to the next topic from your syllabus?
-
-I’m ready when you are, Shahid.

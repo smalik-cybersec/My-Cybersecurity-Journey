@@ -1,14 +1,3 @@
-Excellent, Shahid.
-You're now approaching a **critical administrative and security skill**:
-
-> **Lesson:** Customize OpenSSH Service Configuration
-> **Page Ref:** \~323
-> **Context:** Part of securing and optimizing SSH access across production environments.
-
-This lesson focuses on customizing the behavior of the **SSH daemon (`sshd`)**, which governs how your server handles remote access. These configurations are **vital for security, compliance, and operational control**.
-
----
-
 # ⚙️ Customize OpenSSH Service Configuration
 
 ## 📌 Chapter Overview
@@ -43,8 +32,8 @@ OpenSSH allows fine-tuned control over remote access via its configuration file:
 
 ## 🔍 What is `sshd` and `sshd_config`?
 
-* **`sshd`**: The **OpenSSH server daemon** that handles incoming SSH connections.
-* **`sshd_config`**: The main **configuration file** for controlling SSH server behavior.
+- **`sshd`**: The **OpenSSH server daemon** that handles incoming SSH connections.
+- **`sshd_config`**: The main **configuration file** for controlling SSH server behavior.
 
 ### 🔑 File Path
 
@@ -155,11 +144,13 @@ sudo sshd -t
    ```ini
    Port 2222
    ```
+
 2. Restart service:
 
    ```bash
    sudo systemctl restart ssh
    ```
+
 3. Connect using:
 
    ```bash
@@ -247,20 +238,9 @@ Banner /etc/issue.net
 
 OpenSSH's configuration file is your **control center** for remote access. By customizing `sshd_config`, you:
 
-* Harden your system against brute force and privilege escalation
-* Control who logs in and how
-* Set policies for timeout, logging, and authentication methods
-* Prepare your system for production-grade deployments
+- Harden your system against brute force and privilege escalation
+- Control who logs in and how
+- Set policies for timeout, logging, and authentication methods
+- Prepare your system for production-grade deployments
 
 > 🔐 This is a **core skill** for cybersecurity professionals, system administrators, red teamers, and cloud engineers.
-
----
-
-Let me know if you'd like:
-
-* 📦 Export as `.md` or `.pdf`
-* 🧱 Add a mini-project (e.g., Harden an SSH jump box)
-* ▶️ Visual diagrams of SSH workflow and config file mapping
-* ✅ Move on to the next lesson
-
-Ready for your next command, Shahid.

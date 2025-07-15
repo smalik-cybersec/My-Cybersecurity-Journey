@@ -1,9 +1,3 @@
-Excellent continuation, Shahid.
-This **Guided Exercise** gives you hands-on experience in securing and customizing SSH via `sshd_config`.
-Think of this as your **real-world practice in Linux server hardening**—something every cybersecurity and DevOps professional is expected to master.
-
----
-
 # 🧪 Guided Exercise: Customize OpenSSH Service Configuration
 
 ## 🎯 Objective
@@ -241,13 +235,3 @@ You’ve now **successfully hardened your OpenSSH service** using best practices
 * Set your Linux systems up for **production-grade security**
 
 > 🔐 This is an essential **Linux hardening and compliance skill**.
-
----
-
-Let me know if you'd like:
-
-* 📦 Export as `.md`
-* 🎯 Add a **Red Team Simulation** (e.g., attacker tries to brute-force root)
-* 🔁 Next lesson from the syllabus
-
-I'm ready when you are, Shahid.

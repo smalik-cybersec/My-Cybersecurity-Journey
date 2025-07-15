@@ -1,7 +1,3 @@
-Absolutely, Shahid! Here's your **clean, professional, and GitHub-ready summary** of the entire **“Configure and Secure SSH”** section — perfect for your notes, CV portfolio, or GitHub documentation.
-
----
-
 # ✅ Summary: Configure and Secure SSH
 
 ## 📌 What You Learned
@@ -103,13 +99,3 @@ Located at `/etc/ssh/sshd_config`, it controls how the SSH server behaves.
 
 > SSH isn’t just a tool—it’s the **gateway** to secure remote administration.
 > Securing it is your **first and most important line of defense** in cybersecurity.
-
----
-
-Would you like to:
-
-* 📁 Export this summary as `.md` or `.pdf`?
-* 🧠 Get a **mock interview question set** on SSH?
-* Move to the **next topic** in your syllabus?
-
-Let me know your next move, Shahid — I’m ready!
