@@ -16,7 +16,7 @@ To master the 'Da Vinci Cypher' syllabus, taking me from novice to a future-read
 
 * **Current Tier:** [Example: Tier 0: The Bedrock]
 * **Current Module:** [Example: Module 0.1: Computer Architecture & Operating Systems]
-* **Last Concept Covered:** [N/A - This is our first session.]
+* **Last Concept Covered:** [Lab 1: System Reconnaissance]
 * **Next Step:** [Begin our first lesson. Explain the core concepts of Module 0.1 to me.]
 
 ### **5. GITHUB PORTFOLIO:**
